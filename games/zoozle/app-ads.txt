@@ -1,0 +1,11 @@
+# app-ads.txt for Zoozle (Wobbly Studio)
+#
+# NOTE: Google Play only checks app-ads.txt at the ROOT of the domain set as
+# this app's "Developer website" in the Play Console — a copy in this
+# subfolder will not be crawled unless this game's Play Console listing
+# points its website at this exact subfolder path. In most cases the file
+# that matters is the one at the site root: /app-ads.txt
+#
+# Replace PUB-ACCOUNT-ID with your real Google AdMob / Ad Manager publisher ID.
+
+google.com, pub-PUB-ACCOUNT-ID, DIRECT, f08c47fec0942fa0

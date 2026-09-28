@@ -1,0 +1,15 @@
+# app-ads.txt for Wobbly Studio
+#
+# This is the root Authorized Digital Sellers file for wobblystudio's website.
+# Google Play only reads app-ads.txt from the root of the domain listed as the
+# "Developer website" for a given app in the Play Console — it ignores copies
+# placed in subfolders (e.g. /games/<game>/app-ads.txt), so THIS file is the
+# one that actually needs to be correct and kept up to date.
+#
+# Replace PUB-ACCOUNT-ID below with your real Google AdMob / Ad Manager
+# publisher ID (format: pub-XXXXXXXXXXXXXXXX), found in AdMob under
+# Apps > App Settings > App ads.txt, and add one line per ad network you use.
+#
+# Format: <ad system domain>, <publisher ID>, <relationship>, <certification ID>
+
+google.com, pub-PUB-ACCOUNT-ID, DIRECT, f08c47fec0942fa0
