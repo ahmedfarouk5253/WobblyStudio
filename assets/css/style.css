@@ -76,16 +76,13 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: "Fredoka", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  letter-spacing: 0.2px;
 }
 
 .brand .logo-mark {
-  width: 34px;
-  height: 34px;
+  height: 36px;
+  width: auto;
   flex-shrink: 0;
+  display: block;
 }
 
 .brand:hover .logo-mark {
@@ -145,6 +142,12 @@ nav.main-nav a.active {
 .hero .wrap {
   position: relative;
   z-index: 1;
+}
+
+.hero-logo {
+  max-width: 420px;
+  width: 70%;
+  margin: 0 auto 28px;
 }
 
 .eyebrow {
