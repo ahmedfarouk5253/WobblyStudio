@@ -122,7 +122,7 @@ nav.main-nav a.active {
 
 /* Hero */
 .hero {
-  padding: 96px 0 72px;
+  padding: 12px 0 64px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -145,10 +145,10 @@ nav.main-nav a.active {
 }
 
 .hero-logo {
-  max-width: 380px;
-  width: 65%;
+  max-width: 220px;
+  width: 42%;
   height: auto;
-  margin: 0 auto 20px;
+  margin: 0 auto -8px;
   display: block;
 }
 
@@ -163,7 +163,7 @@ nav.main-nav a.active {
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .hero h1 {
