@@ -1,125 +1,260 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Neon Divide | Wobbly Studio</title>
-  <meta name="description" content="Privacy policy for Neon Divide, an Android game by Wobbly Studio." />
-  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32.png" />
-  <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../../assets/css/style.css" />
-</head>
-<body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Neon Divide Privacy Policy</title>
+<meta name="description" content="What Neon Divide stores, what's optional, and how to reach support or request deletion.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#faf9f6;
+    --bg-panel:#ffffff;
+    --border:#e2ded3;
+    --text:#26241f;
+    --text-dim:#635e50;
+    --accent:#0d6e6a;
+    --accent-soft:#e4f1ef;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15171a;
+      --bg-panel:#1c1f22;
+      --border:#33383d;
+      --text:#eceae4;
+      --text-dim:#a3a49c;
+      --accent:#5fd3ca;
+      --accent-soft:#193331;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15171a;
+    --bg-panel:#1c1f22;
+    --border:#33383d;
+    --text:#eceae4;
+    --text-dim:#a3a49c;
+    --accent:#5fd3ca;
+    --accent-soft:#193331;
+  }
 
-  <header class="site-header">
-    <div class="wrap">
-      <a href="../../index.html" class="brand">
-        <img src="../../assets/img/favicon-32.png" alt="Wobbly Studio" class="logo-mark" />
-      </a>
-      <nav class="main-nav">
-        <a href="../../index.html#games">Games</a>
-        <a href="../../index.html#about">About</a>
-        <a href="../../index.html#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Source Serif 4", Georgia, serif;
+    line-height:1.65;
+    padding-inline:20px;
+    padding-block:48px 80px;
+  }
+  .page{max-width:680px; margin-inline:auto;}
 
-  <section style="padding-top: 48px;">
-    <div class="wrap">
-      <p class="breadcrumb"><a href="../../index.html">Wobbly Studio</a> / <a href="index.html">Neon Divide</a> / Privacy Policy</p>
+  .backlink{
+    display:block;
+    font-family:"IBM Plex Sans", sans-serif;
+    font-weight:600;
+    font-size:13px;
+    color:var(--text-dim);
+    text-decoration:none;
+    margin:0 0 24px;
+  }
+  .backlink:hover{ color:var(--accent); }
 
-      <div class="policy-content">
-        <h1>Privacy Policy — Neon Divide</h1>
-        <span class="updated-badge">Last updated: September 28, 2026</span>
+  .eyebrow{
+    font-family:"IBM Plex Sans", ui-sans-serif, sans-serif;
+    font-size:12.5px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 10px;
+  }
+  h1{
+    font-size:clamp(28px,5vw,38px);
+    font-weight:600;
+    margin:0 0 18px;
+    text-wrap:balance;
+  }
+  .meta{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:13.5px;
+    color:var(--text-dim);
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+    padding-block:14px;
+    margin-bottom:36px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:6px 20px;
+  }
+  .meta strong{color:var(--text); font-weight:600;}
 
-        <p>This Privacy Policy describes how Wobbly Studio ("we", "us", "our") handles information in
-          connection with the Android game <strong>Neon Divide</strong> (the "App"). Wobbly Studio is an
-          independent, one-person game studio. By using the App, you agree to the collection and use of
-          information as described in this policy.</p>
+  .lede{
+    background:var(--accent-soft);
+    border-radius:2px;
+    padding:18px 20px;
+    margin-bottom:40px;
+    font-size:16px;
+  }
 
-        <h2>Information We Collect</h2>
-        <p>We aim to collect as little personal information as possible. Depending on the features you use,
-          the App and its third-party services may collect:</p>
-        <ul>
-          <li><strong>Device information</strong> — device model, operating system version, language, and
-            general region, collected automatically for app performance and compatibility.</li>
-          <li><strong>Advertising identifiers</strong> — such as the Google Advertising ID, used by our
-            advertising and analytics partners to serve and measure ads, where applicable.</li>
-          <li><strong>Usage and diagnostic data</strong> — such as crash reports, gameplay statistics, and
-            performance data, used to improve stability and the overall experience.</li>
-          <li><strong>Gameplay progress</strong> — such as high scores and level completion, which may be
-            stored locally on your device or, if you sign in with Google Play Games, synced to your account
-            so your progress carries across devices.</li>
-        </ul>
-        <p>We do not require you to create an account to play, and we do not knowingly collect names,
-          email addresses, or other directly identifying information unless you voluntarily provide them
-          (for example, by emailing us for support).</p>
+  h2{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:20px;
+    font-weight:600;
+    margin:44px 0 14px;
+    padding-top:2px;
+  }
+  h3{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:15px;
+    font-weight:600;
+    margin:22px 0 8px;
+  }
+  p, li{font-size:16px; max-width:64ch;}
+  ul{padding-left:22px;}
+  li{margin-bottom:8px;}
+  a{color:var(--accent);}
 
-        <h2>Third-Party Services</h2>
-        <p>The App may use third-party services that collect information used to identify you, in
-          accordance with their own privacy policies. These may include:</p>
-        <ul>
-          <li>Google AdMob (advertising)</li>
-          <li>Google Play Services / Google Play Games Services</li>
-          <li>Firebase Analytics / Crashlytics (analytics and crash reporting)</li>
-        </ul>
-        <p>We encourage you to review the privacy policies of these providers to understand how they
-          handle your information.</p>
+  table{
+    width:100%;
+    border-collapse:collapse;
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:13.5px;
+    margin:16px 0 28px;
+  }
+  th,td{
+    text-align:left;
+    padding:10px 12px;
+    border-bottom:1px solid var(--border);
+    vertical-align:top;
+  }
+  th{
+    color:var(--text-dim);
+    font-weight:600;
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:.05em;
+  }
+  .table-wrap{overflow-x:auto;}
 
-        <h2>How We Use Information</h2>
-        <ul>
-          <li>To operate, maintain, and improve the App</li>
-          <li>To display and personalize advertising, where applicable</li>
-          <li>To understand how the App is used and diagnose technical issues</li>
-          <li>To respond to support requests</li>
-        </ul>
+  footer{
+    margin-top:56px;
+    padding-top:20px;
+    border-top:1px solid var(--border);
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:13px;
+    color:var(--text-dim);
+  }
+</style>
 
-        <h2>Data Sharing</h2>
-        <p>We do not sell your personal information. Information may be shared with the third-party
-          service providers listed above solely to provide the functionality described in this policy
-          (such as showing ads or measuring app performance).</p>
+<div class="page">
+  <a class="backlink" href="../../index.html">&larr; Wobbly Studio</a>
+  <p class="eyebrow">Privacy Policy</p>
+  <h1>Neon Divide</h1>
+  <div class="meta">
+    <div><strong>Effective date</strong><br>September 16, 2026</div>
+    <div><strong>Publisher</strong><br>Wobbly Studio</div>
+    <div><strong>Contact</strong><br><a href="mailto:wobblygames45@gmail.com">wobblygames45@gmail.com</a></div>
+  </div>
 
-        <h2>Children's Privacy</h2>
-        <p>The App is not directed at children under the age of 13 (or the applicable age of digital
-          consent in your region), and we do not knowingly collect personal information from children. If
-          you believe a child has provided us with personal information, please contact us so we can
-          remove it.</p>
+  <p class="lede">Neon Divide does not require an account. Your progress is saved on your own device by default. If you choose to sign in with Google, the game also stores a display name, a short friend code, your leaderboard scores, and your friend list on our servers so leaderboards and friends can work — this is entirely optional and the game is fully playable without it. The advertising network is the only other third party involved, and only when an advertisement is shown.</p>
 
-        <h2>Data Retention & Security</h2>
-        <p>We retain information only as long as necessary for the purposes described in this policy, and
-          we take reasonable measures to protect information from unauthorized access, alteration, or
-          disclosure. However, no method of transmission or storage is completely secure.</p>
+  <h2>What the game stores, and where</h2>
+  <p>Everything the game saves stays in its own private storage on your device:</p>
+  <ul>
+    <li>Settings, including audio, haptics and accessibility options</li>
+    <li>Whether you have finished the tutorial</li>
+    <li>Campaign progress and stars</li>
+    <li>Arcade records and lifetime statistics</li>
+    <li>Daily Challenge history and best scores</li>
+    <li>Data Fragments, earned tokens, and Energy Core state</li>
+    <li>Cosmetic ownership and your active selections</li>
+    <li>Purchase entitlements</li>
+    <li>Daily counters used to limit optional rewarded advertisements</li>
+    <li>Session count and total play time, used only to decide when an advertisement may appear</li>
+  </ul>
+  <p>None of this is transmitted anywhere by default. There is no analytics service in this build. Uninstalling the game removes it, and it is not recoverable — with the exception of purchases, which your app store can restore, and (if you signed in) your leaderboard account, which lives on our servers independently of the device.</p>
 
-        <h2>Your Choices</h2>
-        <p>You can reset or limit your device's advertising identifier through your device's system
-          settings. You can also uninstall the App at any time to stop all data collection by the App.</p>
+  <h2>Optional account: sign-in, leaderboards and friends</h2>
+  <p>Neon Divide includes an optional Leaderboard feature (Arcade and Daily Challenge boards, plus adding friends by a short friend code). It is entirely optional — every menu, mode and reward in the game works without ever signing in. If you choose to use it:</p>
+  <ul>
+    <li><strong>Signing in</strong> uses Google Sign-In. We receive your Google account's email address and name at the moment you sign in, in order to create your account.</li>
+    <li><strong>What is stored on our servers</strong> (hosted on Supabase, a backend provider): a display name, a randomly generated six-character friend code, your best Arcade score and your best score per Daily Challenge date, and your friend list (the friend codes you have connected with). We do not store your email address beyond using it once to create the account's display name.</li>
+    <li><strong>What this is used for</strong>: showing you and other players the Global and Friends leaderboards, and connecting friends who exchange friend codes. Leaderboard scores and display names are visible to other signed-in players; nothing else is.</li>
+    <li><strong>Deleting your account</strong>: contact <a href="mailto:wobblygames45@gmail.com">wobblygames45@gmail.com</a> with the request and we will delete your profile, scores and friend connections. Signing out on-device does not delete server-side data by itself — it only ends the local session.</li>
+  </ul>
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with
-          an updated "Last updated" date.</p>
+  <h2>What the game does not do</h2>
+  <ul>
+    <li>It does not use your location</li>
+    <li>It does not use the camera or the microphone</li>
+    <li>It does not read your photos, files or other apps' data</li>
+    <li>It does not contain chat or user-generated content beyond a chosen display name</li>
+    <li>It does not send anything you do in single-player modes to us unless you have signed in and are playing Arcade or the Daily Challenge (only the score is sent, never gameplay details)</li>
+  </ul>
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at
-          <a href="mailto:ahmedfarouk5253@gmail.com">ahmedfarouk5253@gmail.com</a>.</p>
-      </div>
-    </div>
-  </section>
+  <h2>Advertising</h2>
+  <p>Neon Divide shows two kinds of advertisement:</p>
+  <ol>
+    <li>Occasional full-screen advertisements between runs. Never during play, never during the tutorial, and never more than one after every three completed runs, with at least four minutes between them.</li>
+    <li>Optional advertisements you choose to watch in exchange for a stated reward. These are always your choice, and every reward they give can also be earned by playing.</li>
+  </ol>
+  <p>Advertisements are supplied by <strong>Google AdMob</strong>. To serve them, the advertising SDK may collect and process device information such as a device advertising identifier, IP address, coarse location derived from it, and interaction with the advertisement. This processing is carried out by the advertising network under its own privacy policy, not by us:</p>
+  <ul>
+    <li>Google's advertising privacy information: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></li>
+  </ul>
+  <p><strong>Your choice.</strong> On first run you are asked whether advertising may be personalised. Choosing non-personalised means the SDK is asked for generic advertisements only. You can change this at any time in Settings → Privacy and advertising. Both choices leave the entire game playable. Where the law requires it, the advertising SDK presents its own consent form, which is shown before any advertisement is requested.</p>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span class="foot-brand">Wobbly Studio</span>
-      <div class="foot-links">
-        <a href="../../index.html#games">Games</a>
-        <a href="../../index.html#about">About</a>
-        <a href="mailto:ahmedfarouk5253@gmail.com">Contact</a>
-      </div>
-      <p class="copyright">© <span data-year></span> Wobbly Studio. All rights reserved.</p>
-    </div>
+  <h3>Buying your way out</h3>
+  <p>Purchasing Remove Forced Ads, the Founder Pack or the Supporter Edition permanently disables the automatic full-screen advertisements. Optional rewarded advertisements remain available if you want them, and every reward they give remains earnable through ordinary play.</p>
+
+  <h3>Reporting an advertisement</h3>
+  <p>If you see an advertisement that is inappropriate or broken, note the time and the advertiser and contact <a href="mailto:wobblygames45@gmail.com">wobblygames45@gmail.com</a>. Include your device model and the approximate time. We will pass the report to the advertising network. Advertisement close and skip controls belong to the advertising network and are always visible and usable.</p>
+
+  <h2>Purchases</h2>
+  <p>In-app purchases are processed entirely by Google Play or the Apple App Store. We never see or receive your payment details. The game stores only a local record of which products you own, so your benefits apply offline.</p>
+  <p>Use Restore Purchases on the Shop or Settings screen to re-apply purchases on a new device or after reinstalling. Restoration is handled by your app store account.</p>
+  <p>The available products are: Remove Forced Ads, Founder Pack, Supporter Edition, three individual arena themes, and a theme bundle. All are one-time purchases. There is no subscription, no loot box, no battle pass and no purchasable currency.</p>
+
+  <h2>Children</h2>
+  <p>Neon Divide is intended for a general audience of age 13 and over, in line with its Play Store target-audience and content-rating settings, and is not directed primarily at children. It contains no violence, no chat and no user-generated content.</p>
+  <p>We do not knowingly collect personal information from anyone under 13. If you believe a child has provided personal information through this game, contact us and we will investigate.</p>
+
+  <h2>Your rights</h2>
+  <p>If you have never signed in, no personal information is collected or transmitted by the game, and there is nothing held about you for us to export or delete — uninstalling the game or using your device's "clear app data" function removes everything.</p>
+  <p>If you have signed in with Google, contact <a href="mailto:wobblygames45@gmail.com">wobblygames45@gmail.com</a> to request a copy of, or the deletion of, your account (display name, friend code, scores and friend connections). See "Optional account" above.</p>
+  <p>For data processed by the advertising network, exercise your rights through the network's own controls, linked above, and through your device's advertising settings (Android: Settings → Google → Ads; iOS: Settings → Privacy &amp; Security → Tracking).</p>
+
+  <h2>Offline behaviour</h2>
+  <p>The game is fully playable with no network connection. Without one, advertisements simply do not appear and the store shows as unavailable. Nothing is queued for later transmission.</p>
+
+  <h2>Security</h2>
+  <p>Saved data is held in the application's private storage, which your operating system isolates from other apps. Because no personal information is collected on-device, there is none in transit to intercept there. Account data you opt into (display name, friend code, scores, friend connections) is transmitted over an encrypted connection to our backend provider and protected by row-level access rules so only you can modify your own record. Progress is written with a rolling backup so an interrupted write loses at most the most recent change, and purchase entitlements are stored separately so damaged progress data cannot cost you something you paid for.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes materially, the effective date above will change and the updated text will be published at the same URL before the change takes effect.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:wobblygames45@gmail.com">wobblygames45@gmail.com</a></p>
+
+  <h2>Appendix: store data-safety answers</h2>
+  <p>These match the implemented behaviour.</p>
+
+  <h3>Google Play — Data safety</h3>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Question</th><th>Answer</th></tr>
+    <tr><td>Does your app collect or share any of the required user data types?</td><td>Yes — through the advertising SDK, and (only if the player signs in) through the optional leaderboard account</td></tr>
+    <tr><td>Data types collected</td><td>Device or other IDs (advertising ID); App activity → app interactions, limited to advertising interaction. If signed in: name, email (used once to create the account), and app activity (leaderboard scores, friend connections)</td></tr>
+    <tr><td>Purpose</td><td>Advertising or marketing; account management and app functionality (leaderboards, friends)</td></tr>
+    <tr><td>Is data collected by your app or a third party?</td><td>Advertising ID by the advertising SDK; account data by our app, stored with our backend provider (Supabase)</td></tr>
+    <tr><td>Is the data shared with third parties?</td><td>Yes, advertising data with the advertising network. Account data is not sold or shared, other than scores/display name being visible to other signed-in players as part of the leaderboard feature itself</td></tr>
+    <tr><td>Is collection optional?</td><td>Yes — signing in is entirely optional, and ad personalisation is a separate in-app choice</td></tr>
+    <tr><td>Is data encrypted in transit?</td><td>Yes</td></tr>
+    <tr><td>Can users request deletion?</td><td>Yes — advertising data through the network's controls and device advertising settings; account data by contacting support above</td></tr>
+  </table>
+  </div>
+
+  <footer>
+    Neon Divide is developed by Wobbly Studio. This policy applies to the Neon Divide mobile game on Google Play and any other store it is distributed through.
   </footer>
+</div>
 
-  <script src="../../assets/js/main.js"></script>
-</body>
-</html>
+</body></html>

@@ -1,125 +1,245 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Zoozle | Wobbly Studio</title>
-  <meta name="description" content="Privacy policy for Zoozle, an Android game by Wobbly Studio." />
-  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32.png" />
-  <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../../assets/css/style.css" />
-</head>
-<body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body>
+<title>Zoozle Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap');
 
-  <header class="site-header">
-    <div class="wrap">
-      <a href="../../index.html" class="brand">
-        <img src="../../assets/img/favicon-32.png" alt="Wobbly Studio" class="logo-mark" />
-      </a>
-      <nav class="main-nav">
-        <a href="../../index.html#games">Games</a>
-        <a href="../../index.html#about">About</a>
-        <a href="../../index.html#contact">Contact</a>
-      </nav>
+  :root {
+    --bg: #fdf6ec;
+    --surface: #ffffff;
+    --border: #ede1cf;
+    --text: #3a2f2a;
+    --text-muted: #7a6b60;
+    --accent: #ef6f5b;
+    --accent-soft: #fdeae6;
+    --mint: #3fa796;
+    --link: #d1553f;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #211a16;
+      --surface: #2a221d;
+      --border: #3c322a;
+      --text: #f3e9df;
+      --text-muted: #b8a99c;
+      --accent: #ff8a72;
+      --accent-soft: #3a2620;
+      --mint: #5ec4b1;
+      --link: #ff9a83;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #211a16;
+    --surface: #2a221d;
+    --border: #3c322a;
+    --text: #f3e9df;
+    --text-muted: #b8a99c;
+    --accent: #ff8a72;
+    --accent-soft: #3a2620;
+    --mint: #5ec4b1;
+    --link: #ff9a83;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  .backlink {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-muted);
+    text-decoration: none;
+    margin: 0 0 28px;
+  }
+  .backlink:hover { color: var(--accent); }
+
+  .kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    line-height: 1.1;
+    margin: 0 0 8px;
+    text-wrap: balance;
+    color: var(--text);
+  }
+
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin: 0 0 48px;
+  }
+
+  h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin: 48px 0 14px;
+    color: var(--text);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  h2 .num {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: var(--accent);
+    font-size: 1rem;
+  }
+
+  p { margin: 0 0 16px; }
+
+  ul { margin: 0 0 16px; padding-left: 1.3em; }
+  li { margin-bottom: 8px; }
+
+  strong { color: var(--text); }
+
+  a { color: var(--link); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: currentColor; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin: 0 0 16px;
+  }
+
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .tag {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .tag.mint { background: color-mix(in srgb, var(--mint) 16%, transparent); color: var(--mint); }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.92rem;
+  }
+
+  .contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: var(--accent);
+  }
+</style>
+
+<div class="wrap">
+  <a class="backlink" href="../../index.html">&larr; Wobbly Studio</a>
+  <span class="kicker">Privacy Policy</span>
+  <h1>Zoozle: Ai Jigsaw Puzzles</h1>
+  <p class="subtitle">Effective August 24, 2026 &middot; Published by Wobbly Studio</p>
+
+  <p>Zoozle is a jigsaw puzzle game for players of all ages, including children. This policy
+  explains what information the app touches, why, and how it's kept to a minimum &mdash; in plain
+  language, not legal boilerplate.</p>
+
+  <h2><span class="num">01</span> The short version</h2>
+  <div class="card">
+    <div class="tag-row">
+      <span class="tag">No account or sign-in</span>
+      <span class="tag">No personal data collected by us</span>
+      <span class="tag mint">Progress stays on your device</span>
     </div>
-  </header>
+    <p style="margin-bottom:0">Zoozle doesn't ask for your name, email, or any personal details. Your
+    puzzle progress, stars, streaks, and unlocked characters are stored locally on your device and
+    are never uploaded to us. The only data that leaves your device goes to Google's ad and
+    payment services described below.</p>
+  </div>
 
-  <section style="padding-top: 48px;">
-    <div class="wrap">
-      <p class="breadcrumb"><a href="../../index.html">Wobbly Studio</a> / <a href="index.html">Zoozle</a> / Privacy Policy</p>
+  <h2><span class="num">02</span> Advertising</h2>
+  <p>Zoozle shows ads through <strong>Google AdMob</strong>. Because the app doesn't verify a
+  player's age, every ad request is sent tagged as <strong>child-directed</strong>: AdMob is
+  instructed not to use behavioral or interest-based advertising, not to serve remarketing ads,
+  and to cap content at a general (G) rating for every player, regardless of age. This follows
+  Google Play's Families Policy.</p>
+  <p>AdMob may still collect technical identifiers (such as an advertising ID or IP-based general
+  location) to serve and measure ads, and to detect fraud. Google's own privacy practices for this
+  are described at
+  <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a>.</p>
 
-      <div class="policy-content">
-        <h1>Privacy Policy — Zoozle</h1>
-        <span class="updated-badge">Last updated: September 28, 2026</span>
+  <h2><span class="num">03</span> Purchases</h2>
+  <p>Zoozle's in-app purchases (Remove Ads, Zoozle Bundle, Power Up Pack) are processed entirely
+  by <strong>Google Play Billing</strong>. Payment details are handled by Google, not by us or our
+  app &mdash; we only receive confirmation that a purchase was completed, so we can unlock the
+  matching content.</p>
 
-        <p>This Privacy Policy describes how Wobbly Studio ("we", "us", "our") handles information in
-          connection with the Android game <strong>Zoozle</strong> (the "App"). Wobbly Studio is an
-          independent, one-person game studio. By using the App, you agree to the collection and use of
-          information as described in this policy.</p>
+  <h2><span class="num">04</span> What's stored on your device</h2>
+  <p>Zoozle keeps everything about your play session &mdash; level progress, stars, streaks,
+  unlocked characters, power-up inventory, and settings &mdash; in local storage on your device
+  only. Uninstalling the app removes this data. We have no server that stores or receives it.</p>
 
-        <h2>Information We Collect</h2>
-        <p>We aim to collect as little personal information as possible. Depending on the features you use,
-          the App and its third-party services may collect:</p>
-        <ul>
-          <li><strong>Device information</strong> — device model, operating system version, language, and
-            general region, collected automatically for app performance and compatibility.</li>
-          <li><strong>Advertising identifiers</strong> — such as the Google Advertising ID, used by our
-            advertising and analytics partners to serve and measure ads, where applicable.</li>
-          <li><strong>Usage and diagnostic data</strong> — such as crash reports, gameplay statistics, and
-            performance data, used to improve stability and the overall experience.</li>
-          <li><strong>Content you generate</strong> — if the App lets you generate or save AI-created
-            artwork, that content may be processed to create your puzzle and may be stored locally on your
-            device.</li>
-        </ul>
-        <p>We do not require you to create an account to play, and we do not knowingly collect names,
-          email addresses, or other directly identifying information unless you voluntarily provide them
-          (for example, by emailing us for support).</p>
+  <h2><span class="num">05</span> Children's privacy</h2>
+  <p>Zoozle is designed to be appropriate for players under 13, and is built to comply with the
+  Children's Online Privacy Protection Act (COPPA) and Google Play's Families Policy. We do not
+  knowingly collect personal information from children. Advertising shown to all players is
+  treated as child-directed, as described in section 2.</p>
 
-        <h2>Third-Party Services</h2>
-        <p>The App may use third-party services that collect information used to identify you, in
-          accordance with their own privacy policies. These may include:</p>
-        <ul>
-          <li>Google AdMob (advertising)</li>
-          <li>Google Play Services / Google Play Games Services</li>
-          <li>Firebase Analytics / Crashlytics (analytics and crash reporting)</li>
-        </ul>
-        <p>We encourage you to review the privacy policies of these providers to understand how they
-          handle your information.</p>
+  <h2><span class="num">06</span> Permissions</h2>
+  <p>Zoozle requests <strong>Internet</strong> and <strong>network state</strong> access solely to
+  load ads, process purchases, and (optionally) submit an in-game rating through Google Play's
+  native review prompt. No other device permissions are requested.</p>
 
-        <h2>How We Use Information</h2>
-        <ul>
-          <li>To operate, maintain, and improve the App</li>
-          <li>To display and personalize advertising, where applicable</li>
-          <li>To understand how the App is used and diagnose technical issues</li>
-          <li>To respond to support requests</li>
-        </ul>
+  <h2><span class="num">07</span> Changes to this policy</h2>
+  <p>If this policy changes, the update will be posted on this page with a new effective date
+  above. Continued use of Zoozle after a change means you accept the revised policy.</p>
 
-        <h2>Data Sharing</h2>
-        <p>We do not sell your personal information. Information may be shared with the third-party
-          service providers listed above solely to provide the functionality described in this policy
-          (such as showing ads or measuring app performance).</p>
-
-        <h2>Children's Privacy</h2>
-        <p>The App is not directed at children under the age of 13 (or the applicable age of digital
-          consent in your region), and we do not knowingly collect personal information from children. If
-          you believe a child has provided us with personal information, please contact us so we can
-          remove it.</p>
-
-        <h2>Data Retention & Security</h2>
-        <p>We retain information only as long as necessary for the purposes described in this policy, and
-          we take reasonable measures to protect information from unauthorized access, alteration, or
-          disclosure. However, no method of transmission or storage is completely secure.</p>
-
-        <h2>Your Choices</h2>
-        <p>You can reset or limit your device's advertising identifier through your device's system
-          settings. You can also uninstall the App at any time to stop all data collection by the App.</p>
-
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with
-          an updated "Last updated" date.</p>
-
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at
-          <a href="mailto:ahmedfarouk5253@gmail.com">ahmedfarouk5253@gmail.com</a>.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <span class="foot-brand">Wobbly Studio</span>
-      <div class="foot-links">
-        <a href="../../index.html#games">Games</a>
-        <a href="../../index.html#about">About</a>
-        <a href="mailto:ahmedfarouk5253@gmail.com">Contact</a>
-      </div>
-      <p class="copyright">© <span data-year></span> Wobbly Studio. All rights reserved.</p>
-    </div>
+  <footer>
+    <p>Questions about this policy or your data? Contact us at
+      <span class="contact">wobblygames45@gmail.com</span>
+    </p>
+    <p>Zoozle: Ai Jigsaw Puzzles &middot; Wobbly Studio</p>
   </footer>
+</div>
 
-  <script src="../../assets/js/main.js"></script>
-</body>
-</html>
+</body></html>

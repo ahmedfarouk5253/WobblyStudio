@@ -1,125 +1,286 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Equal Grid | Wobbly Studio</title>
-  <meta name="description" content="Privacy policy for Equal Grid, an Android game by Wobbly Studio." />
-  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32.png" />
-  <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../../assets/css/style.css" />
-</head>
-<body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found]){display:none!important}</style></head><body>
+<title>Equal Grid Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#f4f6fa;
+    --surface:#ffffff;
+    --surface-2:#eef1f7;
+    --border:#d8dee9;
+    --text:#131824;
+    --muted:#5c6880;
+    --cyan:#0f7fa6;
+    --gold:#96660a;
+    --cell:#dce2ed;
+    --rule:#e4e9f1;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#080a12;
+      --surface:#141826;
+      --surface-2:#1b2032;
+      --border:#2a3145;
+      --text:#e9eef7;
+      --muted:#98a4bd;
+      --cyan:#4dd1f5;
+      --gold:#fab343;
+      --cell:#1d2334;
+      --rule:#232941;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#080a12;
+    --surface:#141826;
+    --surface-2:#1b2032;
+    --border:#2a3145;
+    --text:#e9eef7;
+    --muted:#98a4bd;
+    --cyan:#4dd1f5;
+    --gold:#fab343;
+    --cell:#1d2334;
+    --rule:#232941;
+  }
 
-  <header class="site-header">
-    <div class="wrap">
-      <a href="../../index.html" class="brand">
-        <img src="../../assets/img/favicon-32.png" alt="Wobbly Studio" class="logo-mark" />
-      </a>
-      <nav class="main-nav">
-        <a href="../../index.html#games">Games</a>
-        <a href="../../index.html#about">About</a>
-        <a href="../../index.html#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  *{box-sizing:border-box;}
 
-  <section style="padding-top: 48px;">
-    <div class="wrap">
-      <p class="breadcrumb"><a href="../../index.html">Wobbly Studio</a> / <a href="index.html">Equal Grid</a> / Privacy Policy</p>
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'IBM Plex Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+    font-size:16.5px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
 
-      <div class="policy-content">
-        <h1>Privacy Policy — Equal Grid</h1>
-        <span class="updated-badge">Last updated: September 28, 2026</span>
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:56px 24px 88px;
+  }
 
-        <p>This Privacy Policy describes how Wobbly Studio ("we", "us", "our") handles information in
-          connection with the Android game <strong>Equal Grid</strong> (the "App"). Wobbly Studio is an
-          independent, one-person game studio. By using the App, you agree to the collection and use of
-          information as described in this policy.</p>
+  .backlink{
+    display:block;
+    font-family:'Rubik',system-ui,sans-serif;
+    font-weight:600;
+    font-size:13px;
+    color:var(--muted);
+    text-decoration:none;
+    margin:0 0 26px;
+  }
+  .backlink:hover{ color:var(--cyan); }
 
-        <h2>Information We Collect</h2>
-        <p>We aim to collect as little personal information as possible. Depending on the features you use,
-          the App and its third-party services may collect:</p>
-        <ul>
-          <li><strong>Device information</strong> — device model, operating system version, language, and
-            general region, collected automatically for app performance and compatibility.</li>
-          <li><strong>Advertising identifiers</strong> — such as the Google Advertising ID, used by our
-            advertising and analytics partners to serve and measure ads, where applicable.</li>
-          <li><strong>Usage and diagnostic data</strong> — such as crash reports, gameplay statistics, and
-            performance data, used to improve stability and the overall experience.</li>
-          <li><strong>Gameplay progress</strong> — such as solved puzzles and level completion, which may
-            be stored locally on your device or, if you sign in with Google Play Games, synced to your
-            account so your progress carries across devices.</li>
-        </ul>
-        <p>We do not require you to create an account to play, and we do not knowingly collect names,
-          email addresses, or other directly identifying information unless you voluntarily provide them
-          (for example, by emailing us for support).</p>
+  .eyebrow{
+    font-family:'Rubik',system-ui,sans-serif;
+    font-weight:600;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--cyan);
+    margin:0 0 14px;
+  }
 
-        <h2>Third-Party Services</h2>
-        <p>The App may use third-party services that collect information used to identify you, in
-          accordance with their own privacy policies. These may include:</p>
-        <ul>
-          <li>Google AdMob (advertising)</li>
-          <li>Google Play Services / Google Play Games Services</li>
-          <li>Firebase Analytics / Crashlytics (analytics and crash reporting)</li>
-        </ul>
-        <p>We encourage you to review the privacy policies of these providers to understand how they
-          handle your information.</p>
+  h1{
+    font-family:'Rubik',system-ui,sans-serif;
+    font-weight:700;
+    font-size:clamp(1.9rem,5vw,2.5rem);
+    line-height:1.12;
+    letter-spacing:-.015em;
+    margin:0 0 10px;
+    text-wrap:balance;
+  }
 
-        <h2>How We Use Information</h2>
-        <ul>
-          <li>To operate, maintain, and improve the App</li>
-          <li>To display and personalize advertising, where applicable</li>
-          <li>To understand how the App is used and diagnose technical issues</li>
-          <li>To respond to support requests</li>
-        </ul>
+  .meta{
+    color:var(--muted);
+    font-size:.95rem;
+    margin:0 0 40px;
+  }
 
-        <h2>Data Sharing</h2>
-        <p>We do not sell your personal information. Information may be shared with the third-party
-          service providers listed above solely to provide the functionality described in this policy
-          (such as showing ads or measuring app performance).</p>
+  h2{
+    font-family:'Rubik',system-ui,sans-serif;
+    font-weight:600;
+    font-size:1.22rem;
+    letter-spacing:-.01em;
+    margin:44px 0 12px;
+    text-wrap:balance;
+  }
 
-        <h2>Children's Privacy</h2>
-        <p>The App is not directed at children under the age of 13 (or the applicable age of digital
-          consent in your region), and we do not knowingly collect personal information from children. If
-          you believe a child has provided us with personal information, please contact us so we can
-          remove it.</p>
+  p{margin:0 0 15px;}
+  ul{margin:0 0 15px;padding-left:1.25em;}
+  li{margin-bottom:7px;}
+  strong{font-weight:600;}
 
-        <h2>Data Retention & Security</h2>
-        <p>We retain information only as long as necessary for the purposes described in this policy, and
-          we take reasonable measures to protect information from unauthorized access, alteration, or
-          disclosure. However, no method of transmission or storage is completely secure.</p>
+  a{color:var(--cyan);text-underline-offset:3px;text-decoration-thickness:1px;}
 
-        <h2>Your Choices</h2>
-        <p>You can reset or limit your device's advertising identifier through your device's system
-          settings. You can also uninstall the App at any time to stop all data collection by the App.</p>
+  .summary{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:26px;
+    margin:0;
+    display:flex;
+    gap:26px;
+    align-items:center;
+    flex-wrap:wrap;
+  }
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with
-          an updated "Last updated" date.</p>
+  .board{
+    width:152px;
+    aspect-ratio:1;
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    grid-template-rows:repeat(8,1fr);
+    gap:3px;
+    padding:8px;
+    background:var(--surface-2);
+    border-radius:11px;
+  }
+  .board i{display:block;background:var(--cell);border-radius:2.5px;}
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at
-          <a href="mailto:ahmedfarouk5253@gmail.com">ahmedfarouk5253@gmail.com</a>.</p>
+  .board-caption{
+    font-family:'Rubik',system-ui,sans-serif;
+    font-size:.78rem;
+    font-weight:500;
+    letter-spacing:.03em;
+    color:var(--muted);
+    text-align:center;
+    margin:10px 0 0;
+  }
+
+  .summary-text{flex:1 1 240px;min-width:0;}
+  .summary-text p{margin:0;}
+  .summary-text p + p{margin-top:11px;}
+
+  .facts{
+    list-style:none;
+    margin:26px 0 0;
+    padding:0;
+    border-top:1px solid var(--rule);
+  }
+  .facts li{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:18px;
+    margin:0;
+    padding:12px 2px;
+    border-bottom:1px solid var(--rule);
+  }
+  .facts .k{color:var(--muted);font-size:.95rem;}
+  .facts .v{
+    font-family:'Rubik',system-ui,sans-serif;
+    font-weight:600;
+    font-size:.95rem;
+    text-align:right;
+    color:var(--cyan);
+  }
+
+  footer{
+    margin-top:52px;
+    padding-top:22px;
+    border-top:1px solid var(--rule);
+    color:var(--muted);
+    font-size:.93rem;
+  }
+  footer p{margin:0 0 6px;}
+  .mail{
+    font-family:'Rubik',system-ui,sans-serif;
+    font-weight:600;
+    color:var(--gold);
+  }
+</style>
+
+<div class="wrap">
+  <a class="backlink" href="../../index.html">&larr; Wobbly Studio</a>
+  <p class="eyebrow">Privacy Policy</p>
+  <h1>Equal Grid</h1>
+  <p class="meta">Effective 9 September 2026 &middot; Published by Wobbly Studio</p>
+
+  <p>Equal Grid is a block puzzle game. This policy explains what the app does with your
+  information. The short answer is that it does not take any &mdash; and the rest of this page
+  explains exactly what that means, in plain language.</p>
+
+  <div class="summary">
+    <div>
+      <div class="board" role="img" aria-label="An empty eight by eight puzzle board, every cell unfilled">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
       </div>
+      <p class="board-caption">Every cell empty</p>
     </div>
-  </section>
+    <div class="summary-text">
+      <p><strong>Equal Grid collects nothing.</strong> No account, no sign-in, no name, no email,
+      no advertising identifier, no location.</p>
+      <p>This version of the game does not connect to the internet at all. Your scores, settings
+      and saved run stay in the app&rsquo;s own storage on your phone, and are deleted when you
+      uninstall it.</p>
+    </div>
+  </div>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <span class="foot-brand">Wobbly Studio</span>
-      <div class="foot-links">
-        <a href="../../index.html#games">Games</a>
-        <a href="../../index.html#about">About</a>
-        <a href="mailto:ahmedfarouk5253@gmail.com">Contact</a>
-      </div>
-      <p class="copyright">© <span data-year></span> Wobbly Studio. All rights reserved.</p>
-    </div>
+  <ul class="facts">
+    <li><span class="k">Personal data collected</span><span class="v">None</span></li>
+    <li><span class="k">Data shared with third parties</span><span class="v">None</span></li>
+    <li><span class="k">Account required</span><span class="v">No</span></li>
+    <li><span class="k">Advertising</span><span class="v">No ads</span></li>
+    <li><span class="k">In-app purchases</span><span class="v">None</span></li>
+    <li><span class="k">Analytics sent off your device</span><span class="v">None</span></li>
+  </ul>
+
+  <h2>What stays on your device</h2>
+  <p>Equal Grid saves a small amount of information so the game works the way you would expect:</p>
+  <ul>
+    <li>Your current Zen run, so you can close the app mid-game and come back to it</li>
+    <li>Your scores and personal bests</li>
+    <li>Daily Grid attempt history</li>
+    <li>Your settings &mdash; sound, vibration, reduced motion, and colour palette</li>
+  </ul>
+  <p>All of it is written to the app&rsquo;s private storage area on your own phone. None of it is
+  transmitted anywhere, and we have no server that receives it. Uninstalling Equal Grid removes
+  it permanently.</p>
+
+  <h2>The daily puzzle works without a server</h2>
+  <p>Every player gets the same Daily Grid because the puzzle is calculated from the date itself,
+  using the same rules on every device &mdash; not because your phone downloaded it from us. That
+  is why the daily challenge works with no internet connection and no account.</p>
+
+  <h2>Permissions</h2>
+  <p>Equal Grid requests two Android permissions:</p>
+  <ul>
+    <li><strong>Vibration</strong> &mdash; used only for the optional haptic feedback when you
+    place a piece or clear a line. You can turn it off in Settings.</li>
+    <li><strong>Internet</strong> &mdash; declared in the app for a planned future online
+    leaderboard. <strong>This version of the game never opens a network connection.</strong> If a
+    future update begins sending data, this policy and the app&rsquo;s Google Play Data Safety
+    information will be updated before that release ships.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Equal Grid is intended for players aged 13 and over. It is not directed at children, and
+  because the app collects no personal information from anyone, it collects none from children
+  either.</p>
+
+  <h2>Your choices</h2>
+  <p>Because nothing leaves your device, there is no account to close and no data for us to hand
+  over or erase on request. Deleting the app deletes everything it ever stored. If you would like
+  to ask about any of this, the contact address is below.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the revised version will be posted on this page with a new effective
+  date at the top. Any change that affects what the app collects will be made before, not after,
+  the update that introduces it.</p>
+
+  <footer>
+    <p>Questions about this policy? Contact <span class="mail">wobblygames45@gmail.com</span></p>
+    <p>Equal Grid &middot; Wobbly Studio</p>
   </footer>
+</div>
 
-  <script src="../../assets/js/main.js"></script>
-</body>
-</html>
+</body></html>
