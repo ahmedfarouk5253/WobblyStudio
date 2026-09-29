@@ -279,6 +279,9 @@ section {
   font-family: "Fredoka", sans-serif;
   color: #fff;
   font-weight: 600;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
 .game-card h3 {
