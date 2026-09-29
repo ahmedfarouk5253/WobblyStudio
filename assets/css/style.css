@@ -145,9 +145,11 @@ nav.main-nav a.active {
 }
 
 .hero-logo {
-  max-width: 420px;
-  width: 70%;
-  margin: 0 auto 28px;
+  max-width: 380px;
+  width: 65%;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
 }
 
 .eyebrow {
