@@ -1,11 +1,14 @@
 # 01: Product Vision
 
 ## Name and identity
-- **Working title:** Arrow Atlas. Play Store title: **"Arrow Atlas: Arrow Escape Puzzle"** (30 chars max on Play).
-- **Studio:** Wobbly Studio. Package `com.wobblystudio.arrowatlas`.
+- **Name:** Arrow Voyage. Play Store title: **"Arrow Voyage: Escape Puzzle"** (27 of 30 chars).
+- **Why this name:** "arrow" is the genre's #1 search word, and the title also carries "escape" and "puzzle". "Voyage" matches the travel/postcard meta and reads almost the same in Spanish, Portuguese, French and Indonesian. No game or app with this name was found in October 2026.
+- **Names ruled out:** *Arrow Atlas* is taken by ZetaWorks, with a very similar country-shaped, atlas concept. *Arrowscape(s)*, *Arrow Odyssey*, *FlyOut* and every *Arrows GO / Arrow Escape / Tap Away* variant are also taken. Avoid "Pip" in the title, because the New York Times has a puzzle game called *Pips*. Pip stays as the in-game mascot.
+- **In-game album:** called the **Travel Journal**, never "Atlas", to stay clearly distinct from the ZetaWorks game.
+- **Studio:** Wobbly Studio. Package `com.wobblystudio.arrowvoyage`.
 - **Mascot:** **Pip**, a small round explorer bird with a coral scarf and a satchel. Pip's tail is an arrowhead. Arrows that leave the board "fly away like Pip's flock".
-- **Fiction (light, never in the way):** Pip is travelling the world collecting postcards. Each chapter is a destination. Clearing levels paints that destination's postcard into your **Atlas**.
-- **Before launch:** search Play for the name. If "Arrow Atlas" is taken, the backups are **Arrow Voyage**, **Pip's Arrow Trip** and **Arrowscape Atlas**.
+- **Fiction (light, never in the way):** Pip is travelling the world collecting postcards. Each chapter is a destination. Clearing levels paints that destination's postcard into your **Travel Journal**.
+- **Before launch:** search the exact name on Google Play and the App Store, and run a free trademark check (USPTO trademark search, EUIPO eSearch). Backups: **Arrows Abroad**, **Shoo! Arrow Puzzle**.
 
 ## One-line pitch
 > The calm, fair arrow puzzle. Clear the board, paint the world.
@@ -36,7 +39,7 @@ Markets: global English first; 12 languages at launch (doc 13). The top ad-reven
 | 7 | **8 board elements** (rocks, locks, ice, mirrors, keys & gates, portals, one-way gates) | "Hard just means more arrows crammed in", "repetitive" |
 | 8 | **Difficulty choice.** Daily in 3 sizes; Endless in Easy, Medium, Hard and Nightmare. | "Let me play Nightmare all the time", "too easy" |
 | 9 | **Dark mode, colored arrows, colorblind palettes, arrow thickness.** Free forever. | Easybrain removing colors and dark mode |
-| 10 | **Atlas postcards + landmark boards** shaped like the place | Repetitive, no sense of progress |
+| 10 | **Travel Journal postcards + landmark boards** shaped like the place | Repetitive, no sense of progress |
 | 11 | **Personal-best timer** (optional) and **perfect-clear crowns** | Players asking for a timer and goals |
 | 12 | **A promise not to take things away.** Free features stay free; rewards never get nerfed. | "Updated, now only one extra try" |
 

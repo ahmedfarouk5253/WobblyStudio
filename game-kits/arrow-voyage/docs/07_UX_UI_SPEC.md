@@ -8,19 +8,19 @@ Splash → (first launch) Consent (UMP) → Level 1 directly (no menu first!)
                                          ↓ after level 3
 Home ─┬─ Play (continue Journey) → Level → Results → Next…
       ├─ Daily → Calendar → Daily level → Daily results
-      ├─ Atlas → Postcard viewer
+      ├─ Travel Journal → Postcard viewer
       ├─ Beyond the Map (after L100) → difficulty picker → Level
       ├─ Shop
       └─ Settings → Themes & Arrows / Our ad promise / Privacy / Credits
 ```
-**First-time flow:** the app opens straight into Level 1 with no menu and no login. That's the leaders' fastest-onboarding trick. Home appears for the first time after Level 3 ("Welcome to your Atlas!", with Pip waving).
+**First-time flow:** the app opens straight into Level 1 with no menu and no login. That's the leaders' fastest-onboarding trick. Home appears for the first time after Level 3 ("Welcome to your Travel Journal!", with Pip waving).
 
 ## 2. Home
 - Background `home_bg`, with Pip (`pip_idle`) sitting on the map, breathing animation (scale 1.00↔1.02, 3 s).
 - Top bar: coins (tap → Shop), hints count, settings gear.
 - Center: the current chapter's postcard card (partially revealed), with the progress "Level 37 · Canal City 12/25".
 - **Big primary button:** "Play · Level 37", full width minus 32 dp, 64 dp tall, coral, with a soft pulse every 4 s.
-- Row of 3 secondary tiles (icon + label): Daily (streak flame + count, "New!" dot if unsolved), Atlas, Shop. Beyond the Map is a 4th tile once unlocked.
+- Row of 3 secondary tiles (icon + label): Daily (streak flame + count, "New!" dot if unsolved), Travel Journal, Shop. Beyond the Map is a 4th tile once unlocked.
 - Daily gift chest bubble: top-left, when available.
 
 ## 3. Level screen (the most important screen)
@@ -71,8 +71,8 @@ Home ─┬─ Play (continue Journey) → Level → Results → Next…
 - Month calendar (7×5 grid) with stickers; tap a past day (last 7) to replay.
 - Trophy shelf (horizontal scroll).
 
-## 7. Atlas screen
-- `atlas_bg`, a vertical list of 20 postcards in a two-column "journal" grid.
+## 7. Travel Journal screen
+- `journal_bg`, a vertical list of 20 postcards in a two-column "journal" grid.
 - Each card: the postcard with reveal state, the chapter name, "12/25", crowns count, stamp (if complete), padlock (if locked).
 - Postcard viewer: full screen, pinch to zoom, chapter name, place facts (1 friendly sentence each, in `l10n`), Close.
 

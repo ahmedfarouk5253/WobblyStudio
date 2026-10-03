@@ -111,7 +111,7 @@ Interesting finding: **players complain far more about "too easy" than "too hard
 | "Too easy / repetitive / more arrows" | **A new mechanic every 25 levels** (8 mechanics) + a difficulty curve with peaks + a choice of difficulty in the Daily puzzle and in Endless (03, 04) |
 | Grid and colors are loved | Dot grid, aim line, dark mode and colored arrows are **free forever** and stated in the store listing (01, 08) |
 | Calm / ASMR positioning works | Whoosh sounds, soft haptics, no timers, Zen mode (08) |
-| Amaze GO!'s zoom-reveal was the best emotional beat | **Atlas meta:** clearing levels reveals a hand-painted travel postcard; landmark levels are shaped like the place (05) |
+| Amaze GO!'s zoom-reveal was the best emotional beat | **Travel Journal meta:** clearing levels reveals a hand-painted travel postcard; landmark levels are shaped like the place (05) |
 | Short video ads carry the genre | A share-a-replay GIF in v1.1 + an ad-creative plan (15, 17) |
 | Clones get rejected or ignored | Our own name, mascot, art, mechanics and generator. No copied levels, art or listing text (01, 15) |
 

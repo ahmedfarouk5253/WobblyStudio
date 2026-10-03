@@ -2,13 +2,13 @@
 
 The meta layer is deliberately **light and tied to the puzzle**. Every level you clear visibly paints the world; there's no separate building game.
 
-## 1. The Atlas (main meta)
+## 1. The Travel Journal (main meta)
 - **20 chapters**, each one a destination (names and art in doc 11): Harbor Lighthouse, Cherry Blossom Garden, Desert Oasis, Alpine Village, Canal City, Savannah Sunset, Northern Lights, Rainforest Falls, Lantern Night Market, Windmill Fields, Coral Reef, Balloon Valley, Pyramid Dunes, Ice Fjord, Volcano Island, Bamboo Forest, Castle on the Hill, Moonlit Temple, Star Observatory, Sky Islands.
 - Each chapter has a **postcard** (1200×800 illustration) split into **25 reveal tiles** (a 5×5 jittered Voronoi pattern, generated in code from the chapter number so it's stable).
 - **Clearing a level** reveals one tile with a watercolor "paint bloom" animation, 0.9 s. The tile index follows a fixed shuffled order per chapter, ending at the center tile.
 - **Clearing all 25** completes the postcard: Pip stamps it (`pip_stamp`, `stamp` sound), the chapter's **stamp badge** is awarded, +2 hints, +200 coins, and the next chapter opens with a "New destination" card.
 - **Unrevealed tiles** are drawn as a soft desaturated, blurred version of the image, so players can see the picture coming. This is the **zoom-reveal** beat that Amaze GO! does well.
-- The **Atlas screen** shows all postcards as a journal spread: locked chapters are silhouettes with a padlock, completed ones are stamped. Tap a postcard to view it full screen. In v1.1 you can also set it as wallpaper or share it.
+- The **Travel Journal screen** shows all postcards as a journal spread: locked chapters are silhouettes with a padlock, completed ones are stamped. Tap a postcard to view it full screen. In v1.1 you can also set it as wallpaper or share it.
 - **Crowns:** each level can earn a crown for a perfect clear. A chapter with all 25 crowns gets a gold frame on its postcard (cosmetic, for completionists).
 
 ## 2. Coins (only soft currency, no hard currency)
@@ -73,7 +73,7 @@ The meta layer is deliberately **light and tied to the puzzle**. Every level you
 | no_hint_ch | Self-Made | Finish a chapter with 0 hints | 150 |
 | postcard_1 | Wish You Were Here | Complete the first postcard | 100 |
 | postcard_10 | Globetrotter | 10 postcards | 300 |
-| postcard_20 | World Atlas | All 20 postcards | 500 + Aurora theme |
+| postcard_20 | World Traveler | All 20 postcards | 500 + Aurora theme |
 | streak_7 | Habit Bird | 7-day streak | 100 |
 | streak_30 | Early Bird | 30-day streak | 300 |
 | daily_trophy | Monthly Champion | First monthly trophy | 200 |

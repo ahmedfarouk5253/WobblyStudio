@@ -3,7 +3,7 @@
 Order by impact on retention, rating and virality. Re-prioritize with analytics.
 
 ## v1.1 (launch + 4–6 weeks): growth features
-- **Replay share:** after a clear, "Share replay" exports a 6–10 s sped-up GIF or MP4 of the board clearing (render frames offscreen with the same painters → encode). Watermark "Arrow Atlas" + the level number. This turns players into ad creatives.
+- **Replay share:** after a clear, "Share replay" exports a 6–10 s sped-up GIF or MP4 of the board clearing (render frames offscreen with the same painters → encode). Watermark "Arrow Voyage" + the level number. This turns players into ad creatives.
 - **Postcard share / wallpaper:** export a completed postcard with its stamp as an image.
 - **Chapters 21–22** + 2 postcards (Rice Terraces, Northern Harbor).
 - **Weekly optional League** (opt-in only): play any 10 levels in the week; your total perfect clears are ranked against 30 others via Play Games leaderboards (weekly time span). No penalties, no forced participation.
@@ -19,7 +19,7 @@ Order by impact on retention, rating and virality. Re-prioritize with analytics.
 - An iOS release, if Android metrics justify it (Apple Developer account, StoreKit, Game Center).
 
 ## Ideas parking lot (only with evidence)
-- Subscription "Atlas Pass" (monthly cosmetic + extra hints), only if Remove Ads conversion plateaus and players ask for more content.
+- Subscription "Voyage Pass" (monthly cosmetic + extra hints), only if Remove Ads conversion plateaus and players ask for more content.
 - Tablet landscape layout.
 - Wear OS daily mini-puzzle (fun press angle).
 - Translation community program.

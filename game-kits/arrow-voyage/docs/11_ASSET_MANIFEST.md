@@ -55,7 +55,7 @@ This is the list of every image and sound the game ships with. The same list is 
 | File | Size (px) | Ratio | Alpha | Pri | Used in | What it is |
 |---|---|---|---|---|---|---|
 | `assets/branding/splash_logo_1152.png` | 1152×1152 | 1:1 | yes | P1 | flutter_native_splash | Android 12+ splash screen icon (shown centered on a navy background while the app loads). |
-| `assets/branding/logo_wordmark.png` | 1600×640 | 5:2 | yes | P2 | Feature graphic, website, promo | Game logo with the title 'Arrow Atlas'. OPTIONAL — the app renders the title in code with a font; this is for the feature graphic and marketing. |
+| `assets/branding/logo_wordmark.png` | 1600×640 | 5:2 | yes | P2 | Feature graphic, website, promo | Game logo with the title 'Arrow Voyage'. OPTIONAL — the app renders the title in code with a font; this is for the feature graphic and marketing. |
 | `store/feature_graphic_1024x500.png` | 1024×500 | 256:125 | no | P0 | Play Console > Main store listing > Feature graphic | Google Play feature graphic (the wide banner on your store page and in some promos). |
 | `store/screenshot_bg_01.png` | 1080×1920 | 9:16 | no | P1 | Store screenshots (composited) | Background plate #1 for framed store screenshots (night). A script places a real gameplay capture on it and adds a caption. |
 | `store/screenshot_bg_02.png` | 1080×1920 | 9:16 | no | P1 | Store screenshots (composited) | Background plate #2 for framed store screenshots (paper). A script places a real gameplay capture on it and adds a caption. |
@@ -74,7 +74,7 @@ This is the list of every image and sound the game ships with. The same list is 
 | `assets/images/mascot/pip_think.png` | 1024×1024 | 1:1 | yes | P0 | Hint button tooltip, hint popup | Pip — one wing on chin. |
 | `assets/images/mascot/pip_oops.png` | 1024×1024 | 1:1 | yes | P0 | Out of hearts popup | Pip — gently embarrassed. |
 | `assets/images/mascot/pip_sleep.png` | 1024×1024 | 1:1 | yes | P1 | Streak freeze / come back tomorrow | Pip — sleeping curled up on a small folded map. |
-| `assets/images/mascot/pip_travel.png` | 1024×1024 | 1:1 | yes | P1 | Atlas / postcard album, chapter unlock | Pip — holding an unfolded paper map with both wings. |
+| `assets/images/mascot/pip_travel.png` | 1024×1024 | 1:1 | yes | P1 | Travel Journal / postcard album, chapter unlock | Pip — holding an unfolded paper map with both wings. |
 | `assets/images/mascot/pip_shop.png` | 1024×1024 | 1:1 | yes | P1 | Shop header, coin rewards | Pip — proudly holding a big shiny gold coin with both wings. |
 | `assets/images/mascot/pip_stamp.png` | 1024×1024 | 1:1 | yes | P1 | Postcard completed celebration | Pip — stamping a postcard with a big rubber stamp. |
 
@@ -98,7 +98,7 @@ This is the list of every image and sound the game ships with. The same list is 
 | `assets/images/ui/icon_ad_video.png` | 512×512 | 1:1 | yes | P0 | Rewarded-ad button badge | A rounded teal rectangle play button (like a video play icon) with a tiny sparkle. |
 | `assets/images/ui/icon_no_ads.png` | 512×512 | 1:1 | yes | P0 | Remove Ads product | A rounded square TV screen with a coral circle-slash over it. |
 | `assets/images/ui/icon_calendar.png` | 512×512 | 1:1 | yes | P0 | Daily puzzle | A small desk calendar page with a coral top binding and a checkmark. |
-| `assets/images/ui/icon_atlas.png` | 512×512 | 1:1 | yes | P0 | Atlas (postcard album) button | A small closed leather travel journal with a compass emblem on the cover. |
+| `assets/images/ui/icon_journal.png` | 512×512 | 1:1 | yes | P0 | Travel Journal (postcard album) button | A small closed leather travel journal with a compass emblem on the cover. |
 | `assets/images/ui/icon_palette.png` | 512×512 | 1:1 | yes | P1 | Themes / arrow skins button | A painter's palette with dots of coral, teal, amber and violet. |
 | `assets/images/ui/icon_zen.png` | 512×512 | 1:1 | yes | P1 | Zen mode (no hearts) | A calm lotus flower in teal and cream. |
 | `assets/images/ui/icon_lock.png` | 512×512 | 1:1 | yes | P0 | Locked chapters / themes | A chunky rounded padlock in navy and amber. |
@@ -110,7 +110,7 @@ This is the list of every image and sound the game ships with. The same list is 
 | File | Size (px) | Ratio | Alpha | Pri | Used in | What it is |
 |---|---|---|---|---|---|---|
 | `assets/images/bg/home_bg.png` | 1080×2340 | 6:13 | no | P0 | HomeScreen | Home screen background. Buttons sit in the middle and bottom third, so keep those areas calm. |
-| `assets/images/bg/atlas_bg.png` | 1080×2340 | 6:13 | no | P1 | AtlasScreen | Background for the Atlas (postcard album) screen. |
+| `assets/images/bg/journal_bg.png` | 1080×2340 | 6:13 | no | P1 | JournalScreen | Background for the Travel Journal (postcard album) screen. |
 | `assets/images/bg/daily_header.png` | 1080×600 | 9:5 | no | P1 | DailyScreen header | Header art for the Daily Puzzle screen. |
 | `assets/images/bg/shop_header.png` | 1080×600 | 9:5 | no | P1 | ShopScreen header | Header art for the Shop screen. |
 
@@ -125,69 +125,69 @@ This is the list of every image and sound the game ships with. The same list is 
 | `assets/images/themes/dusk/bg.png` | 1080×2340 | 6:13 | no | P1 | ThemeRegistry 'dusk' | Unlockable theme: background behind the puzzle board. |
 | `assets/images/themes/aurora/bg.png` | 1080×2340 | 6:13 | no | P2 | ThemeRegistry 'aurora' | Premium/Supporter theme: background behind the puzzle board. |
 
-## 7 · Chapters (Atlas)
+## 7 · Chapters (Travel Journal)
 
 | File | Size (px) | Ratio | Alpha | Pri | Used in | What it is |
 |---|---|---|---|---|---|---|
-| `assets/images/chapters/ch01_postcard.png` | 1200×800 | 3:2 | no | P0 | Atlas chapter 1 'Harbor Lighthouse' | Chapter 1 — Harbor Lighthouse: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch01_stamp.png` | 512×512 | 1:1 | yes | P0 | Atlas chapter 1 badge, chapter-complete popup | Chapter 1 — Harbor Lighthouse: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch01_postcard.png` | 1200×800 | 3:2 | no | P0 | Journal chapter 1 'Harbor Lighthouse' | Chapter 1 — Harbor Lighthouse: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch01_stamp.png` | 512×512 | 1:1 | yes | P0 | Journal chapter 1 badge, chapter-complete popup | Chapter 1 — Harbor Lighthouse: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch01_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 25 | Chapter 1 — Harbor Lighthouse: SHAPE MASK for the chapter's landmark level (the board takes the shape of a lighthouse). |
-| `assets/images/chapters/ch02_postcard.png` | 1200×800 | 3:2 | no | P0 | Atlas chapter 2 'Cherry Blossom Garden' | Chapter 2 — Cherry Blossom Garden: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch02_stamp.png` | 512×512 | 1:1 | yes | P0 | Atlas chapter 2 badge, chapter-complete popup | Chapter 2 — Cherry Blossom Garden: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch02_postcard.png` | 1200×800 | 3:2 | no | P0 | Journal chapter 2 'Cherry Blossom Garden' | Chapter 2 — Cherry Blossom Garden: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch02_stamp.png` | 512×512 | 1:1 | yes | P0 | Journal chapter 2 badge, chapter-complete popup | Chapter 2 — Cherry Blossom Garden: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch02_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 50 | Chapter 2 — Cherry Blossom Garden: SHAPE MASK for the chapter's landmark level (the board takes the shape of a five-petal cherry blossom flower). |
-| `assets/images/chapters/ch03_postcard.png` | 1200×800 | 3:2 | no | P0 | Atlas chapter 3 'Desert Oasis' | Chapter 3 — Desert Oasis: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch03_stamp.png` | 512×512 | 1:1 | yes | P0 | Atlas chapter 3 badge, chapter-complete popup | Chapter 3 — Desert Oasis: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch03_postcard.png` | 1200×800 | 3:2 | no | P0 | Journal chapter 3 'Desert Oasis' | Chapter 3 — Desert Oasis: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch03_stamp.png` | 512×512 | 1:1 | yes | P0 | Journal chapter 3 badge, chapter-complete popup | Chapter 3 — Desert Oasis: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch03_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 75 | Chapter 3 — Desert Oasis: SHAPE MASK for the chapter's landmark level (the board takes the shape of a palm tree). |
-| `assets/images/chapters/ch04_postcard.png` | 1200×800 | 3:2 | no | P0 | Atlas chapter 4 'Alpine Village' | Chapter 4 — Alpine Village: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch04_stamp.png` | 512×512 | 1:1 | yes | P0 | Atlas chapter 4 badge, chapter-complete popup | Chapter 4 — Alpine Village: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch04_postcard.png` | 1200×800 | 3:2 | no | P0 | Journal chapter 4 'Alpine Village' | Chapter 4 — Alpine Village: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch04_stamp.png` | 512×512 | 1:1 | yes | P0 | Journal chapter 4 badge, chapter-complete popup | Chapter 4 — Alpine Village: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch04_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 100 | Chapter 4 — Alpine Village: SHAPE MASK for the chapter's landmark level (the board takes the shape of a mountain peak with a snow cap). |
-| `assets/images/chapters/ch05_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 5 'Canal City' | Chapter 5 — Canal City: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch05_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 5 badge, chapter-complete popup | Chapter 5 — Canal City: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch05_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 5 'Canal City' | Chapter 5 — Canal City: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch05_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 5 badge, chapter-complete popup | Chapter 5 — Canal City: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch05_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 125 | Chapter 5 — Canal City: SHAPE MASK for the chapter's landmark level (the board takes the shape of a gondola boat). |
-| `assets/images/chapters/ch06_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 6 'Savannah Sunset' | Chapter 6 — Savannah Sunset: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch06_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 6 badge, chapter-complete popup | Chapter 6 — Savannah Sunset: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch06_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 6 'Savannah Sunset' | Chapter 6 — Savannah Sunset: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch06_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 6 badge, chapter-complete popup | Chapter 6 — Savannah Sunset: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch06_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 150 | Chapter 6 — Savannah Sunset: SHAPE MASK for the chapter's landmark level (the board takes the shape of a giraffe). |
-| `assets/images/chapters/ch07_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 7 'Northern Lights' | Chapter 7 — Northern Lights: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch07_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 7 badge, chapter-complete popup | Chapter 7 — Northern Lights: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch07_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 7 'Northern Lights' | Chapter 7 — Northern Lights: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch07_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 7 badge, chapter-complete popup | Chapter 7 — Northern Lights: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch07_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 175 | Chapter 7 — Northern Lights: SHAPE MASK for the chapter's landmark level (the board takes the shape of a pine tree). |
-| `assets/images/chapters/ch08_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 8 'Rainforest Falls' | Chapter 8 — Rainforest Falls: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch08_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 8 badge, chapter-complete popup | Chapter 8 — Rainforest Falls: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch08_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 8 'Rainforest Falls' | Chapter 8 — Rainforest Falls: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch08_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 8 badge, chapter-complete popup | Chapter 8 — Rainforest Falls: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch08_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 200 | Chapter 8 — Rainforest Falls: SHAPE MASK for the chapter's landmark level (the board takes the shape of a parrot). |
-| `assets/images/chapters/ch09_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 9 'Lantern Night Market' | Chapter 9 — Lantern Night Market: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch09_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 9 badge, chapter-complete popup | Chapter 9 — Lantern Night Market: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch09_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 9 'Lantern Night Market' | Chapter 9 — Lantern Night Market: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch09_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 9 badge, chapter-complete popup | Chapter 9 — Lantern Night Market: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch09_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 225 | Chapter 9 — Lantern Night Market: SHAPE MASK for the chapter's landmark level (the board takes the shape of a round paper lantern). |
-| `assets/images/chapters/ch10_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 10 'Windmill Fields' | Chapter 10 — Windmill Fields: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch10_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 10 badge, chapter-complete popup | Chapter 10 — Windmill Fields: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch10_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 10 'Windmill Fields' | Chapter 10 — Windmill Fields: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch10_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 10 badge, chapter-complete popup | Chapter 10 — Windmill Fields: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch10_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 250 | Chapter 10 — Windmill Fields: SHAPE MASK for the chapter's landmark level (the board takes the shape of a windmill). |
-| `assets/images/chapters/ch11_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 11 'Coral Reef' | Chapter 11 — Coral Reef: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch11_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 11 badge, chapter-complete popup | Chapter 11 — Coral Reef: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch11_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 11 'Coral Reef' | Chapter 11 — Coral Reef: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch11_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 11 badge, chapter-complete popup | Chapter 11 — Coral Reef: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch11_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 275 | Chapter 11 — Coral Reef: SHAPE MASK for the chapter's landmark level (the board takes the shape of a sea turtle). |
-| `assets/images/chapters/ch12_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 12 'Balloon Valley' | Chapter 12 — Balloon Valley: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch12_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 12 badge, chapter-complete popup | Chapter 12 — Balloon Valley: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch12_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 12 'Balloon Valley' | Chapter 12 — Balloon Valley: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch12_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 12 badge, chapter-complete popup | Chapter 12 — Balloon Valley: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch12_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 300 | Chapter 12 — Balloon Valley: SHAPE MASK for the chapter's landmark level (the board takes the shape of a hot air balloon). |
-| `assets/images/chapters/ch13_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 13 'Pyramid Dunes' | Chapter 13 — Pyramid Dunes: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch13_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 13 badge, chapter-complete popup | Chapter 13 — Pyramid Dunes: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch13_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 13 'Pyramid Dunes' | Chapter 13 — Pyramid Dunes: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch13_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 13 badge, chapter-complete popup | Chapter 13 — Pyramid Dunes: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch13_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 325 | Chapter 13 — Pyramid Dunes: SHAPE MASK for the chapter's landmark level (the board takes the shape of a pyramid with a small sun above). |
-| `assets/images/chapters/ch14_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 14 'Ice Fjord' | Chapter 14 — Ice Fjord: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch14_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 14 badge, chapter-complete popup | Chapter 14 — Ice Fjord: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch14_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 14 'Ice Fjord' | Chapter 14 — Ice Fjord: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch14_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 14 badge, chapter-complete popup | Chapter 14 — Ice Fjord: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch14_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 350 | Chapter 14 — Ice Fjord: SHAPE MASK for the chapter's landmark level (the board takes the shape of a whale tail). |
-| `assets/images/chapters/ch15_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 15 'Volcano Island' | Chapter 15 — Volcano Island: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch15_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 15 badge, chapter-complete popup | Chapter 15 — Volcano Island: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch15_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 15 'Volcano Island' | Chapter 15 — Volcano Island: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch15_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 15 badge, chapter-complete popup | Chapter 15 — Volcano Island: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch15_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 375 | Chapter 15 — Volcano Island: SHAPE MASK for the chapter's landmark level (the board takes the shape of a volcano). |
-| `assets/images/chapters/ch16_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 16 'Bamboo Forest' | Chapter 16 — Bamboo Forest: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch16_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 16 badge, chapter-complete popup | Chapter 16 — Bamboo Forest: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch16_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 16 'Bamboo Forest' | Chapter 16 — Bamboo Forest: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch16_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 16 badge, chapter-complete popup | Chapter 16 — Bamboo Forest: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch16_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 400 | Chapter 16 — Bamboo Forest: SHAPE MASK for the chapter's landmark level (the board takes the shape of a panda head). |
-| `assets/images/chapters/ch17_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 17 'Castle on the Hill' | Chapter 17 — Castle on the Hill: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch17_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 17 badge, chapter-complete popup | Chapter 17 — Castle on the Hill: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch17_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 17 'Castle on the Hill' | Chapter 17 — Castle on the Hill: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch17_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 17 badge, chapter-complete popup | Chapter 17 — Castle on the Hill: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch17_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 425 | Chapter 17 — Castle on the Hill: SHAPE MASK for the chapter's landmark level (the board takes the shape of a castle with three towers). |
-| `assets/images/chapters/ch18_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 18 'Moonlit Temple' | Chapter 18 — Moonlit Temple: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch18_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 18 badge, chapter-complete popup | Chapter 18 — Moonlit Temple: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch18_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 18 'Moonlit Temple' | Chapter 18 — Moonlit Temple: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch18_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 18 badge, chapter-complete popup | Chapter 18 — Moonlit Temple: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch18_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 450 | Chapter 18 — Moonlit Temple: SHAPE MASK for the chapter's landmark level (the board takes the shape of a crescent moon). |
-| `assets/images/chapters/ch19_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 19 'Star Observatory' | Chapter 19 — Star Observatory: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch19_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 19 badge, chapter-complete popup | Chapter 19 — Star Observatory: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch19_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 19 'Star Observatory' | Chapter 19 — Star Observatory: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch19_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 19 badge, chapter-complete popup | Chapter 19 — Star Observatory: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch19_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 475 | Chapter 19 — Star Observatory: SHAPE MASK for the chapter's landmark level (the board takes the shape of a rocket). |
-| `assets/images/chapters/ch20_postcard.png` | 1200×800 | 3:2 | no | P1 | Atlas chapter 20 'Sky Islands' | Chapter 20 — Sky Islands: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
-| `assets/images/chapters/ch20_stamp.png` | 512×512 | 1:1 | yes | P1 | Atlas chapter 20 badge, chapter-complete popup | Chapter 20 — Sky Islands: postage-stamp badge awarded when the chapter is completed. |
+| `assets/images/chapters/ch20_postcard.png` | 1200×800 | 3:2 | no | P1 | Journal chapter 20 'Sky Islands' | Chapter 20 — Sky Islands: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared. |
+| `assets/images/chapters/ch20_stamp.png` | 512×512 | 1:1 | yes | P1 | Journal chapter 20 badge, chapter-complete popup | Chapter 20 — Sky Islands: postage-stamp badge awarded when the chapter is completed. |
 | `assets/images/masks/ch20_mask.png` | 512×512 | 1:1 | no | P1 | tool/level_gen landmark level 500 | Chapter 20 — Sky Islands: SHAPE MASK for the chapter's landmark level (the board takes the shape of a small bird in flight with wings spread). |
 
 ## 8 · Audio (not images — use an AI sound/music generator or CC0 libraries)

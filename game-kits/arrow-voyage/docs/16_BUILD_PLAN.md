@@ -14,7 +14,7 @@ Expected effort: about 3–6 weeks of evenings for M0–M12, depending on how mu
 ```
 Read CLAUDE.md and every file in docs/ (skim 00 and 15, read 02, 03, 04, 09 carefully).
 Then bootstrap the project:
-- flutter create --org com.wobblystudio --project-name arrow_atlas --platforms android,ios .
+- flutter create --org com.wobblystudio --project-name arrow_voyage --platforms android,ios .
   (keep CLAUDE.md, docs/, assets_manifest.json in place)
 - Add the packages from docs/09 §2 with flutter pub add; set up analysis_options with flutter_lints + strict casts.
 - Create the folder structure from docs/09 §3 with placeholder files.
@@ -73,10 +73,10 @@ atomic writes + backup per docs/09 §7). Wire Journey progression level 1 → 50
 ```
 **Accept:** you can play from L1 through chapter 2 with no menus missing; killing the app mid-level restores the board exactly.
 
-## M5: Home, Atlas, meta and economy
+## M5: Home, Travel Journal, meta and economy
 ```
 Implement docs/05 and docs/07 §1–2, §7, §9: first-time flow (straight into L1, Home after L3), Home screen,
-Atlas (postcard reveal tiles with paint-bloom effect, stamps, viewer), coins + rewards table, achievements
+Travel Journal (postcard reveal tiles with paint-bloom effect, stamps, viewer), coins + rewards table, achievements
 (local), themes + arrow styles + palettes + thickness (Settings), daily gift, unlock timeline. Write the
 economy tests including the 30-day simulation.
 ```

@@ -1,5 +1,5 @@
 {
-  "game": "Arrow Atlas",
+  "game": "Arrow Voyage",
   "studio": "Wobbly Studio",
   "version": 1,
   "global_style": "Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
@@ -147,8 +147,8 @@
       "format": "PNG",
       "transparent": true,
       "priority": "P2",
-      "description": "Game logo with the title 'Arrow Atlas'. OPTIONAL — the app renders the title in code with a font; this is for the feature graphic and marketing.",
-      "prompt": "Playful game logo reading exactly 'Arrow Atlas' in chunky rounded cream (#F6F0E4) letters with a thin ink-navy outline; the letter 'A' in 'Atlas' has a small coral arrowhead as its crossbar; a tiny paper plane trail swoops under the word. Centered. Soft flat vector style, subtle grain. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
+      "description": "Game logo with the title 'Arrow Voyage'. OPTIONAL — the app renders the title in code with a font; this is for the feature graphic and marketing.",
+      "prompt": "Playful game logo reading exactly 'Arrow Voyage' in chunky rounded cream (#F6F0E4) letters with a thin ink-navy outline; the first 'A' in 'Arrow' has a small coral arrowhead as its crossbar; a tiny paper plane trail swoops under the word. Centered. Soft flat vector style, subtle grain. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "This is the ONLY asset with text. AI often misspells — check spelling letter by letter, or skip it and let Claude Code typeset the logo with the Baloo 2 font.",
       "used_in": "Feature graphic, website, promo"
     },
@@ -346,7 +346,7 @@
       "description": "Pip — holding an unfolded paper map with both wings.",
       "prompt": "Pip, a small round chubby sparrow-like bird: deep teal-blue body (#2E6F8E), cream belly (#F6F0E4), tiny amber beak (#FFB547), big friendly dark eyes with white highlights, rosy cheeks, a small coral explorer scarf (#FF6B5B) and a tiny brown leather satchel. Its tail feathers form one clean arrowhead shape. Proportions: head and body one round shape, short stubby wings, little orange feet. Pose: holding an unfolded paper map with both wings, looking excited, satchel visible. Full body, centered, character fills about 80% of the canvas height. Match the character sheet exactly. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "Use pip_character_sheet.png as reference so all poses match.",
-      "used_in": "Atlas / postcard album, chapter unlock"
+      "used_in": "Travel Journal / postcard album, chapter unlock"
     },
     {
       "group": "3 · Mascot (Pip)",
@@ -602,7 +602,7 @@
     },
     {
       "group": "4 · UI icons",
-      "path": "assets/images/ui/icon_atlas.png",
+      "path": "assets/images/ui/icon_journal.png",
       "width": 512,
       "height": 512,
       "aspect": "1:1",
@@ -612,7 +612,7 @@
       "description": "A small closed leather travel journal with a compass emblem on the cover.",
       "prompt": "Game UI icon, chunky and glossy-soft, thick rounded shapes, simple 2-3 tone shading, a thin darker outline of the same hue, readable at 32 px, centered, fills about 80% of the canvas. Soft flat vector style, no text. Subject: a small closed leather travel journal with a compass emblem on the cover. Palette: ink navy #1B2240, cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "Generated at 512, shown at 24–64 dp. Keep shapes simple.",
-      "used_in": "Atlas (postcard album) button"
+      "used_in": "Travel Journal (postcard album) button"
     },
     {
       "group": "4 · UI icons",
@@ -700,17 +700,17 @@
     },
     {
       "group": "5 · Screen backgrounds",
-      "path": "assets/images/bg/atlas_bg.png",
+      "path": "assets/images/bg/journal_bg.png",
       "width": 1080,
       "height": 2340,
       "aspect": "6:13",
       "format": "PNG",
       "transparent": false,
       "priority": "P1",
-      "description": "Background for the Atlas (postcard album) screen.",
+      "description": "Background for the Travel Journal (postcard album) screen.",
       "prompt": "Vertical background: the inside of an open leather travel journal, warm cream pages (#F6F0E4) with faint navy ruled lines, washi tape pieces in the corners, a few faded stamp marks. Very low detail, the pages must stay calm because postcards are placed on top. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "",
-      "used_in": "AtlasScreen"
+      "used_in": "JournalScreen"
     },
     {
       "group": "5 · Screen backgrounds",
@@ -825,7 +825,7 @@
       "used_in": "ThemeRegistry 'aurora'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch01_postcard.png",
       "width": 1200,
       "height": 800,
@@ -836,10 +836,10 @@
       "description": "Chapter 1 — Harbor Lighthouse: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a red-and-white lighthouse on rocks at a calm harbor at golden hour, small fishing boats. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 1 'Harbor Lighthouse'"
+      "used_in": "Journal chapter 1 'Harbor Lighthouse'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch01_stamp.png",
       "width": 512,
       "height": 512,
@@ -850,10 +850,10 @@
       "description": "Chapter 1 — Harbor Lighthouse: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a lighthouse on a teal background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 1 badge, chapter-complete popup"
+      "used_in": "Journal chapter 1 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch01_mask.png",
       "width": 512,
       "height": 512,
@@ -867,7 +867,7 @@
       "used_in": "tool/level_gen landmark level 25"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch02_postcard.png",
       "width": 1200,
       "height": 800,
@@ -878,10 +878,10 @@
       "description": "Chapter 2 — Cherry Blossom Garden: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a Japanese-style garden with pink cherry blossom trees, a small wooden bridge over a koi pond. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 2 'Cherry Blossom Garden'"
+      "used_in": "Journal chapter 2 'Cherry Blossom Garden'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch02_stamp.png",
       "width": 512,
       "height": 512,
@@ -892,10 +892,10 @@
       "description": "Chapter 2 — Cherry Blossom Garden: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a five-petal cherry blossom flower on a amber background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 2 badge, chapter-complete popup"
+      "used_in": "Journal chapter 2 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch02_mask.png",
       "width": 512,
       "height": 512,
@@ -909,7 +909,7 @@
       "used_in": "tool/level_gen landmark level 50"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch03_postcard.png",
       "width": 1200,
       "height": 800,
@@ -920,10 +920,10 @@
       "description": "Chapter 3 — Desert Oasis: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a turquoise oasis pool with palm trees among golden sand dunes, a camel resting. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 3 'Desert Oasis'"
+      "used_in": "Journal chapter 3 'Desert Oasis'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch03_stamp.png",
       "width": 512,
       "height": 512,
@@ -934,10 +934,10 @@
       "description": "Chapter 3 — Desert Oasis: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a palm tree on a sky blue background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 3 badge, chapter-complete popup"
+      "used_in": "Journal chapter 3 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch03_mask.png",
       "width": 512,
       "height": 512,
@@ -951,7 +951,7 @@
       "used_in": "tool/level_gen landmark level 75"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch04_postcard.png",
       "width": 1200,
       "height": 800,
@@ -962,10 +962,10 @@
       "description": "Chapter 4 — Alpine Village: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a snowy alpine village with wooden chalets under tall mountains, a little red cable car. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 4 'Alpine Village'"
+      "used_in": "Journal chapter 4 'Alpine Village'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch04_stamp.png",
       "width": 512,
       "height": 512,
@@ -976,10 +976,10 @@
       "description": "Chapter 4 — Alpine Village: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a mountain peak with a snow cap on a violet background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 4 badge, chapter-complete popup"
+      "used_in": "Journal chapter 4 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch04_mask.png",
       "width": 512,
       "height": 512,
@@ -993,7 +993,7 @@
       "used_in": "tool/level_gen landmark level 100"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch05_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1004,10 +1004,10 @@
       "description": "Chapter 5 — Canal City: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a canal city with colorful old houses, arched bridges and a gondola on the water. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 5 'Canal City'"
+      "used_in": "Journal chapter 5 'Canal City'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch05_stamp.png",
       "width": 512,
       "height": 512,
@@ -1018,10 +1018,10 @@
       "description": "Chapter 5 — Canal City: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a gondola boat on a coral background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 5 badge, chapter-complete popup"
+      "used_in": "Journal chapter 5 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch05_mask.png",
       "width": 512,
       "height": 512,
@@ -1035,7 +1035,7 @@
       "used_in": "tool/level_gen landmark level 125"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch06_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1046,10 +1046,10 @@
       "description": "Chapter 6 — Savannah Sunset: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: an African savannah at sunset with an acacia tree and a giraffe silhouette. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 6 'Savannah Sunset'"
+      "used_in": "Journal chapter 6 'Savannah Sunset'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch06_stamp.png",
       "width": 512,
       "height": 512,
@@ -1060,10 +1060,10 @@
       "description": "Chapter 6 — Savannah Sunset: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a giraffe on a teal background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 6 badge, chapter-complete popup"
+      "used_in": "Journal chapter 6 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch06_mask.png",
       "width": 512,
       "height": 512,
@@ -1077,7 +1077,7 @@
       "used_in": "tool/level_gen landmark level 150"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch07_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1088,10 +1088,10 @@
       "description": "Chapter 7 — Northern Lights: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a small wooden cabin in a snowy pine forest under green and violet northern lights. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 7 'Northern Lights'"
+      "used_in": "Journal chapter 7 'Northern Lights'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch07_stamp.png",
       "width": 512,
       "height": 512,
@@ -1102,10 +1102,10 @@
       "description": "Chapter 7 — Northern Lights: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a pine tree on a amber background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 7 badge, chapter-complete popup"
+      "used_in": "Journal chapter 7 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch07_mask.png",
       "width": 512,
       "height": 512,
@@ -1119,7 +1119,7 @@
       "used_in": "tool/level_gen landmark level 175"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch08_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1130,10 +1130,10 @@
       "description": "Chapter 8 — Rainforest Falls: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a lush rainforest with a tall waterfall, giant leaves and a colorful parrot. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 8 'Rainforest Falls'"
+      "used_in": "Journal chapter 8 'Rainforest Falls'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch08_stamp.png",
       "width": 512,
       "height": 512,
@@ -1144,10 +1144,10 @@
       "description": "Chapter 8 — Rainforest Falls: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a parrot on a sky blue background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 8 badge, chapter-complete popup"
+      "used_in": "Journal chapter 8 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch08_mask.png",
       "width": 512,
       "height": 512,
@@ -1161,7 +1161,7 @@
       "used_in": "tool/level_gen landmark level 200"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch09_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1172,10 +1172,10 @@
       "description": "Chapter 9 — Lantern Night Market: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a night market street with strings of glowing paper lanterns and food stalls. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 9 'Lantern Night Market'"
+      "used_in": "Journal chapter 9 'Lantern Night Market'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch09_stamp.png",
       "width": 512,
       "height": 512,
@@ -1186,10 +1186,10 @@
       "description": "Chapter 9 — Lantern Night Market: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a round paper lantern on a violet background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 9 badge, chapter-complete popup"
+      "used_in": "Journal chapter 9 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch09_mask.png",
       "width": 512,
       "height": 512,
@@ -1203,7 +1203,7 @@
       "used_in": "tool/level_gen landmark level 225"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch10_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1214,10 +1214,10 @@
       "description": "Chapter 10 — Windmill Fields: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: tulip fields in stripes of color with a classic windmill and a canal. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 10 'Windmill Fields'"
+      "used_in": "Journal chapter 10 'Windmill Fields'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch10_stamp.png",
       "width": 512,
       "height": 512,
@@ -1228,10 +1228,10 @@
       "description": "Chapter 10 — Windmill Fields: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a windmill on a coral background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 10 badge, chapter-complete popup"
+      "used_in": "Journal chapter 10 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch10_mask.png",
       "width": 512,
       "height": 512,
@@ -1245,7 +1245,7 @@
       "used_in": "tool/level_gen landmark level 250"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch11_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1256,10 +1256,10 @@
       "description": "Chapter 11 — Coral Reef: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: an underwater coral reef with a sea turtle, tropical fish and light rays. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 11 'Coral Reef'"
+      "used_in": "Journal chapter 11 'Coral Reef'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch11_stamp.png",
       "width": 512,
       "height": 512,
@@ -1270,10 +1270,10 @@
       "description": "Chapter 11 — Coral Reef: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a sea turtle on a teal background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 11 badge, chapter-complete popup"
+      "used_in": "Journal chapter 11 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch11_mask.png",
       "width": 512,
       "height": 512,
@@ -1287,7 +1287,7 @@
       "used_in": "tool/level_gen landmark level 275"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch12_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1298,10 +1298,10 @@
       "description": "Chapter 12 — Balloon Valley: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a valley of rock chimneys at sunrise with many colorful hot air balloons. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 12 'Balloon Valley'"
+      "used_in": "Journal chapter 12 'Balloon Valley'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch12_stamp.png",
       "width": 512,
       "height": 512,
@@ -1312,10 +1312,10 @@
       "description": "Chapter 12 — Balloon Valley: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a hot air balloon on a amber background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 12 badge, chapter-complete popup"
+      "used_in": "Journal chapter 12 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch12_mask.png",
       "width": 512,
       "height": 512,
@@ -1329,7 +1329,7 @@
       "used_in": "tool/level_gen landmark level 300"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch13_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1340,10 +1340,10 @@
       "description": "Chapter 13 — Pyramid Dunes: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: ancient pyramids in the desert under a big pale sun, a caravan far away. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 13 'Pyramid Dunes'"
+      "used_in": "Journal chapter 13 'Pyramid Dunes'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch13_stamp.png",
       "width": 512,
       "height": 512,
@@ -1354,10 +1354,10 @@
       "description": "Chapter 13 — Pyramid Dunes: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a pyramid with a small sun above on a sky blue background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 13 badge, chapter-complete popup"
+      "used_in": "Journal chapter 13 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch13_mask.png",
       "width": 512,
       "height": 512,
@@ -1371,7 +1371,7 @@
       "used_in": "tool/level_gen landmark level 325"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch14_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1382,10 +1382,10 @@
       "description": "Chapter 14 — Ice Fjord: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a deep blue fjord with icebergs and a whale tail rising from the water. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 14 'Ice Fjord'"
+      "used_in": "Journal chapter 14 'Ice Fjord'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch14_stamp.png",
       "width": 512,
       "height": 512,
@@ -1396,10 +1396,10 @@
       "description": "Chapter 14 — Ice Fjord: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a whale tail on a violet background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 14 badge, chapter-complete popup"
+      "used_in": "Journal chapter 14 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch14_mask.png",
       "width": 512,
       "height": 512,
@@ -1413,7 +1413,7 @@
       "used_in": "tool/level_gen landmark level 350"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch15_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1424,10 +1424,10 @@
       "description": "Chapter 15 — Volcano Island: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a tropical island with a gently smoking volcano, palm beach and outrigger canoe. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 15 'Volcano Island'"
+      "used_in": "Journal chapter 15 'Volcano Island'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch15_stamp.png",
       "width": 512,
       "height": 512,
@@ -1438,10 +1438,10 @@
       "description": "Chapter 15 — Volcano Island: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a volcano on a coral background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 15 badge, chapter-complete popup"
+      "used_in": "Journal chapter 15 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch15_mask.png",
       "width": 512,
       "height": 512,
@@ -1455,7 +1455,7 @@
       "used_in": "tool/level_gen landmark level 375"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch16_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1466,10 +1466,10 @@
       "description": "Chapter 16 — Bamboo Forest: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a tall green bamboo forest path with a panda eating bamboo. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 16 'Bamboo Forest'"
+      "used_in": "Journal chapter 16 'Bamboo Forest'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch16_stamp.png",
       "width": 512,
       "height": 512,
@@ -1480,10 +1480,10 @@
       "description": "Chapter 16 — Bamboo Forest: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a panda head on a teal background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 16 badge, chapter-complete popup"
+      "used_in": "Journal chapter 16 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch16_mask.png",
       "width": 512,
       "height": 512,
@@ -1497,7 +1497,7 @@
       "used_in": "tool/level_gen landmark level 400"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch17_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1508,10 +1508,10 @@
       "description": "Chapter 17 — Castle on the Hill: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a fairy-tale stone castle on a green hill with flags, winding road and sheep. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 17 'Castle on the Hill'"
+      "used_in": "Journal chapter 17 'Castle on the Hill'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch17_stamp.png",
       "width": 512,
       "height": 512,
@@ -1522,10 +1522,10 @@
       "description": "Chapter 17 — Castle on the Hill: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a castle with three towers on a amber background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 17 badge, chapter-complete popup"
+      "used_in": "Journal chapter 17 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch17_mask.png",
       "width": 512,
       "height": 512,
@@ -1539,7 +1539,7 @@
       "used_in": "tool/level_gen landmark level 425"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch18_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1550,10 +1550,10 @@
       "description": "Chapter 18 — Moonlit Temple: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a quiet hilltop temple under a huge crescent moon, stone lanterns and fireflies. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 18 'Moonlit Temple'"
+      "used_in": "Journal chapter 18 'Moonlit Temple'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch18_stamp.png",
       "width": 512,
       "height": 512,
@@ -1564,10 +1564,10 @@
       "description": "Chapter 18 — Moonlit Temple: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a crescent moon on a sky blue background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 18 badge, chapter-complete popup"
+      "used_in": "Journal chapter 18 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch18_mask.png",
       "width": 512,
       "height": 512,
@@ -1581,7 +1581,7 @@
       "used_in": "tool/level_gen landmark level 450"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch19_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1592,10 +1592,10 @@
       "description": "Chapter 19 — Star Observatory: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: a white dome observatory on a mountain top under a starry sky with a shooting star. Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 19 'Star Observatory'"
+      "used_in": "Journal chapter 19 'Star Observatory'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch19_stamp.png",
       "width": 512,
       "height": 512,
@@ -1606,10 +1606,10 @@
       "description": "Chapter 19 — Star Observatory: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a rocket on a violet background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 19 badge, chapter-complete popup"
+      "used_in": "Journal chapter 19 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch19_mask.png",
       "width": 512,
       "height": 512,
@@ -1623,7 +1623,7 @@
       "used_in": "tool/level_gen landmark level 475"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch20_postcard.png",
       "width": 1200,
       "height": 800,
@@ -1634,10 +1634,10 @@
       "description": "Chapter 20 — Sky Islands: postcard illustration revealed piece by piece as the 25 levels of this chapter are cleared.",
       "prompt": "Landscape travel postcard illustration, no border, no text: floating grassy islands in the clouds connected by rope bridges, Pip flying between them (finale). Rich but calm composition with one clear focal point, readable as a small thumbnail. Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature.",
       "notes": "Opaque. The app adds the postcard border, stamp and reveal effect in code.",
-      "used_in": "Atlas chapter 20 'Sky Islands'"
+      "used_in": "Journal chapter 20 'Sky Islands'"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/chapters/ch20_stamp.png",
       "width": 512,
       "height": 512,
@@ -1648,10 +1648,10 @@
       "description": "Chapter 20 — Sky Islands: postage-stamp badge awarded when the chapter is completed.",
       "prompt": "A single postage stamp with scalloped perforated edges, slightly rotated 4 degrees, showing a tiny simple illustration of a small bird in flight with wings spread on a coral background, with a faint circular ink postmark over one corner (postmark has wavy lines only, no letters). Soft flat vector illustration for a cozy mobile puzzle game. Rounded friendly shapes, clean edges, subtle paper grain texture, gentle soft shading (no harsh gradients), limited palette: ink navy #1B2240, warm cream #F6F0E4, coral #FF6B5B, amber #FFB547, teal #2EC4B6, sky blue #4DA8FF, violet #9B7BFF. Calm, warm, uncluttered. No text, no letters, no numbers, no logos, no watermark, no signature. Isolated on a fully transparent background (PNG with alpha). No ground shadow, no backdrop, no frame.",
       "notes": "",
-      "used_in": "Atlas chapter 20 badge, chapter-complete popup"
+      "used_in": "Journal chapter 20 badge, chapter-complete popup"
     },
     {
-      "group": "7 · Chapters (Atlas)",
+      "group": "7 · Chapters (Travel Journal)",
       "path": "assets/images/masks/ch20_mask.png",
       "width": 512,
       "height": 512,

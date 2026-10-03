@@ -1,10 +1,10 @@
-# CLAUDE.md: Arrow Atlas
+# CLAUDE.md: Arrow Voyage
 
-You are building **Arrow Atlas**, an arrow-escape puzzle game for Android by Wobbly Studio, a solo indie studio. The design docs in `docs/` are the spec. When code and docs disagree, the docs win. If a doc is wrong, update the doc in the same commit and say so.
+You are building **Arrow Voyage**, an arrow-escape puzzle game for Android by Wobbly Studio, a solo indie studio. The design docs in `docs/` are the spec. When code and docs disagree, the docs win. If a doc is wrong, update the doc in the same commit and say so.
 
 ## Identity
-- GAME_NAME: `Arrow Atlas`
-- PACKAGE_ID: `com.wobblystudio.arrowatlas`
+- GAME_NAME: `Arrow Voyage`
+- PACKAGE_ID: `com.wobblystudio.arrowvoyage`
 - Studio site (privacy policy and app-ads.txt are hosted here): `https://<your-github-username>.github.io/WobblyStudio/`. Ask the owner for the final domain before you set it.
 - Support email: ahmedfarouk5253@gmail.com
 

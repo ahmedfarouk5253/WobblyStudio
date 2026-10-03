@@ -52,7 +52,7 @@ Wobbly Studio's other games already use AdMob, Play Games Services (cloud save) 
 - **Cloud save:** see doc 09 §7.
 
 ## 5. Firebase
-- Create the Firebase project "arrow-atlas", add the Android app (package `com.wobblystudio.arrowatlas`), download `google-services.json`. It's not a secret, so it's fine to commit; restrict its API key in Google Cloud to the Android app's package name and SHA-1.
+- Create the Firebase project "arrow-voyage", add the Android app (package `com.wobblystudio.arrowvoyage`), download `google-services.json`. It's not a secret, so it's fine to commit; restrict its API key in Google Cloud to the Android app's package name and SHA-1.
 - Use FlutterFire CLI: `flutterfire configure`.
 - **Analytics:**
   - Disable advertising-ID collection unless consent is given (`setConsent`).
@@ -79,4 +79,4 @@ After level 20 (conditions in doc 05 §7): call `InAppReview.requestReview()`. N
 | Purchase history | Billing | Google |
 | Play Games player ID + saved game | Cloud save, achievements | Google |
 
-No account system, no email collection, no user-generated content in v1. The privacy policy page goes on the Wobbly Studio website, next to the other games (`games/arrow-atlas/privacy-policy.html`), in the same style. Claude Code can generate it from this table.
+No account system, no email collection, no user-generated content in v1. The privacy policy page goes on the Wobbly Studio website, next to the other games (`games/arrow-voyage/privacy-policy.html`), in the same style. Claude Code can generate it from this table.

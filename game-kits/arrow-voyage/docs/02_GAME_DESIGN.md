@@ -80,7 +80,7 @@ Tapping the **same** blocked arrow again costs no heart until something on the b
    - Coins earned (+ crown bonus).
    - Crown if perfect.
    - Time and personal best (if timer on).
-   - The postcard piece revealed (animated paint stroke into the Atlas thumbnail).
+   - The postcard piece revealed (animated paint stroke into the Travel Journal thumbnail).
    - Buttons: **Next** (primary, big) · Double coins (rewarded ad, optional, small) · Home.
 5. **Next:** the interstitial check (06) runs **here**, after the player taps Next and before the next level loads. It never shows on the results card itself.
 

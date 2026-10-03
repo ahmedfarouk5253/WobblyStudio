@@ -168,11 +168,11 @@ Store both the score and `par`. After launch, **re-fit the weights** with real d
 ## 7. Landmark masks
 - Source: `assets/images/masks/chNN_mask.png` (black = playable).
 - **Rasterize:** choose a grid so the mask fits in about 24×32 cells while keeping its aspect ratio. A cell is playable if ≥ 50% of its pixels are black. Then remove islands smaller than 4 cells and fill 1-cell holes.
-- The rasterized mask is baked into the level JSON at generation time, so the PNG isn't needed at runtime for gameplay. It's still shipped, to show the silhouette on the Atlas page.
+- The rasterized mask is baked into the level JSON at generation time, so the PNG isn't needed at runtime for gameplay. It's still shipped, to show the silhouette on the Travel Journal page.
 - **Fallback:** if a mask file is missing, use built-in procedural shapes (heart, star, circle, diamond, house) from `lib/engine/gen/shapes.dart`.
 
 ## 8. Daily puzzle (on-device)
-- `seed = fnv1a64("arrowatlas-daily-v1|" + yyyy-mm-dd in UTC)`
+- `seed = fnv1a64("arrowvoyage-daily-v1|" + yyyy-mm-dd in UTC)`
 - **Sizes:**
   - Small: score target 35, ≈ 12×16
   - Medium: 50, ≈ 18×26

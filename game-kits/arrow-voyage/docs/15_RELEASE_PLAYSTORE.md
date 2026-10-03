@@ -1,7 +1,7 @@
 # 15: Release on Google Play, ASO and Launch
 
 ## 1. Play Console setup checklist
-- [ ] Create the app "Arrow Atlas: Arrow Escape Puzzle". Game → Puzzle. Free. Contains ads: **Yes**.
+- [ ] Create the app "Arrow Voyage: Escape Puzzle". Game → Puzzle. Free. Contains ads: **Yes**.
 - [ ] **Play App Signing:** on. Upload the AAB signed with your upload key (keep the `.jks` + passwords in a password manager **and** an offline backup).
 - [ ] **App content:**
   - privacy policy URL (Wobbly Studio site)
@@ -27,20 +27,20 @@
 3. **Production:** staged rollout 10% → 50% → 100% over about 5 days, watching Android vitals (ANR < 0.47%, crash < 1.09% user-perceived thresholds).
 
 ## 3. Website updates (WobblyStudio repo)
-- `games/arrow-atlas/index.html` + `privacy-policy.html` (copy the structure of the other games).
+- `games/arrow-voyage/index.html` + `privacy-policy.html` (copy the structure of the other games).
 - Root `app-ads.txt`: make sure it contains `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0` with your real AdMob publisher ID.
 - Set the **Developer website** in Play Console to the site root, so the crawler finds `app-ads.txt`.
 
 ## 4. Store listing (English source; translate to the 12 languages)
-**Title (≤ 30):** `Arrow Atlas: Arrow Escape Puzzle`
+**Title (≤ 30):** `Arrow Voyage: Escape Puzzle`
 
-**Short description (≤ 80):** `Calm arrow puzzle. Tap to clear the board, paint the world. Fair ads.`
+**Short description (≤ 80):** `Calm arrow puzzle. Tap arrows to clear the board and travel the world.`
 
 **Full description:**
 ```
 Tap an arrow. If its path is clear, it flies away. Clear the board to win.
 
-Arrow Atlas is the calm, fair arrow escape puzzle. Easy to learn, surprisingly deep, and made to be relaxing.
+Arrow Voyage is the calm, fair arrow escape puzzle. Easy to learn, surprisingly deep, and made to be relaxing.
 
 WHY PLAYERS LOVE IT
 • Smart Touch – taps go to the arrow you meant. On huge boards, a magnifier lets you aim before you fire.
@@ -56,7 +56,7 @@ ALWAYS SOMETHING NEW
 • Daily Puzzle in 3 sizes, streaks and monthly trophies
 • Beyond the Map: endless puzzles from Easy to Nightmare
 
-PAINT YOUR ATLAS
+FILL YOUR TRAVEL JOURNAL
 Every level you clear paints part of a travel postcard. Collect all 20 stamps with Pip, the little explorer bird.
 
 OUR AD PROMISE
@@ -71,7 +71,7 @@ Made with care by Wobbly Studio, a one-person indie studio.
 
 **Screenshots (8, 1080×1920):** gameplay is captured from the dev flavor with `integration_test` + `tool/compose_screenshots.dart`, composited onto `store/screenshot_bg_0N.png` with captions:
 1. "Tap. Slide. Clear the board." (a satisfying mid-level board, one arrow flying)
-2. "Paint the world, one level at a time" (Atlas postcard reveal)
+2. "Paint the world, one level at a time" (Travel Journal postcard reveal)
 3. "Never mis-tap again" (Precision Loupe on a big board)
 4. "New tricks every chapter" (mirrors + portals)
 5. "Daily puzzles in 3 sizes" (calendar + streak)

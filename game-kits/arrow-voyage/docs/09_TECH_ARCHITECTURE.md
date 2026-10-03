@@ -57,7 +57,7 @@ lib/
     anim/ (exit_anim.dart, bump_anim.dart, path_follower.dart)
     level_controller.dart      # Riverpod notifier: engine + hearts + hints + timers + events
   features/
-    home/ level/ results/ daily/ atlas/ endless/ shop/ settings/ onboarding/
+    home/ level/ results/ daily/ journal/ endless/ shop/ settings/ onboarding/
   services/
     save/ (save_service.dart, save_model.dart, cloud_save.dart, migrations.dart)
     ads/ (ads_service.dart, ad_policy.dart)        # ad_policy = pure, unit-tested rules from doc 06

@@ -1,10 +1,10 @@
-# Arrow Atlas: Build Kit
+# Arrow Voyage: Build Kit
 
-**Arrow Atlas** is the working title for Wobbly Studio's arrow-escape puzzle game for Android, built with Flutter.
+**Arrow Voyage** (Play Store title: *Arrow Voyage: Escape Puzzle*) is Wobbly Studio's arrow-escape puzzle game for Android, built with Flutter.
 
 This folder has everything Claude Code needs to build the full game, from an empty folder to a Play Store release. Every rule, number, screen, asset and service is written down, so Claude Code doesn't have to guess.
 
-> **Rename the game if you like.** Before you publish, search Google Play for "Arrow Atlas" to check the name is free. To rename, change `GAME_NAME` and `PACKAGE_ID` in `CLAUDE.md`, then ask Claude Code to update everything else.
+> **Name check.** "Arrow Voyage" was free in October 2026 ("Arrow Atlas" is taken by another studio). Before you publish, search the exact name on Google Play and run a trademark check (see `docs/01_PRODUCT_VISION.md`). To rename later, change `GAME_NAME` and `PACKAGE_ID` in `CLAUDE.md`, then ask Claude Code to update everything else.
 
 ---
 
@@ -20,7 +20,7 @@ This folder has everything Claude Code needs to build the full game, from an emp
 | `docs/02_GAME_DESIGN.md` | Core rules, controls, hearts, hints, results, modes. |
 | `docs/03_MECHANICS.md` | Every board element, with exact rules and the Monotonic Rule. |
 | `docs/04_LEVEL_SYSTEM.md` | Level JSON format, generator algorithm, solver, difficulty score, curve, daily puzzle. |
-| `docs/05_META_PROGRESSION.md` | Atlas postcards, coins, themes, streaks, achievements. |
+| `docs/05_META_PROGRESSION.md` | Travel Journal postcards, coins, themes, streaks, achievements. |
 | `docs/06_MONETIZATION.md` | Fair-ads policy, ad rules, IAP catalog, remote config defaults. |
 | `docs/07_UX_UI_SPEC.md` | Every screen, flow, layout, animation and tutorial step. |
 | `docs/08_ART_AUDIO_DIRECTION.md` | Palettes, how arrows are drawn, motion, sound and haptics. |
@@ -38,7 +38,7 @@ This folder has everything Claude Code needs to build the full game, from an emp
 
 ## How to use this with Claude Code
 
-1. Create an empty folder, for example `arrow-atlas/`. Turn it into a git repo and push it to GitHub.
+1. Create an empty folder, for example `arrow-voyage/`. Turn it into a git repo and push it to GitHub.
 2. Copy **everything in this zip** into the root of that folder. `CLAUDE.md` must be at the root.
 3. Open Claude Code in that folder.
 4. Open `docs/16_BUILD_PLAN.md`. Paste the prompts in order, one milestone at a time (M0 → M12). After each one, check the acceptance list before you start the next.
@@ -48,4 +48,4 @@ The game runs on **auto-generated placeholder art** from M1 onward, so you never
 
 ## The one-paragraph pitch
 
-> A calm, fair arrow-escape puzzle. Tap a bendy arrow and it slides off the board if its path is clear. Clear every arrow to finish the level. Arrow Atlas keeps the simple loop that took the genre to #1 in the world, and fixes what players hate about the current leaders: mis-taps on big boards, ads after every level, Remove Ads that doesn't remove ads, punishing hearts, and repetitive "just more arrows" difficulty. Each cleared chapter reveals a hand-painted travel postcard in your Atlas, and new board elements arrive every 25 levels, so level 400 doesn't play like level 4.
+> A calm, fair arrow-escape puzzle. Tap a bendy arrow and it slides off the board if its path is clear. Clear every arrow to finish the level. Arrow Voyage keeps the simple loop that took the genre to #1 in the world, and fixes what players hate about the current leaders: mis-taps on big boards, ads after every level, Remove Ads that doesn't remove ads, punishing hearts, and repetitive "just more arrows" difficulty. Each cleared chapter reveals a hand-painted travel postcard in your Travel Journal, and new board elements arrive every 25 levels, so level 400 doesn't play like level 4.
