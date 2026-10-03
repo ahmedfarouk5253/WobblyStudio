@@ -126,11 +126,16 @@ daily; in-app review trigger. Give me the Play Console steps for products, licen
 
 ## M11: Real assets, localization, accessibility
 ```
-New assets are in. Run tool/check_assets.dart, then tool/optimize_assets.dart (resize to the manifest sizes,
-convert to WebP quality 88 except icons/masks which stay PNG), regenerate assets.g.dart, remove placeholders
-where real files exist, wire launcher icons (flutter_launcher_icons with adaptive + monochrome), native splash,
-notification icon. Then: localize into the 12 languages (docs/13), check font scale 1.3×, TalkBack labels,
-and the contrast test.
+New assets are in. Run the asset pipeline from docs/11: write tool/cutout.py (rembg; only for manifest
+images with cutout=true whose corners are still opaque; keep soft edges; save a before/after contact sheet
+to build/asset_review.png for me to check), tool/derive_assets.py (images with a "derive" field; clean masks to
+pure black/white), then tool/optimize_assets.dart (center-crop to the final aspect ratio, resize to the final
+size, WebP quality 88 except icons/masks which stay PNG) and tool/check_assets.dart --strict. Regenerate
+assets.g.dart, remove placeholders where real files exist, wire launcher icons (flutter_launcher_icons with
+adaptive + monochrome), native splash, notification icon. Then check docs/07 §12 and docs/08 §5 and §7: arrows
+drawn as shaded tubes, candy buttons, frosted panels, spring motion. Show me screenshots of Home, a level,
+the results sheet and the Travel Journal.
+Then: localize into the 12 languages (docs/13), check font scale 1.3×, TalkBack labels, and the contrast test.
 ```
 **Accept:** `check_assets --strict` is clean; the app looks finished; switching the language works.
 

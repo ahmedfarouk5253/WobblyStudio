@@ -70,6 +70,7 @@ lib/
 tool/
   level_gen.dart, validate_levels.dart, level_preview.dart, curve_report.dart
   check_assets.dart, optimize_assets.dart, gen_asset_constants.dart, compose_screenshots.dart
+  cutout.py (rembg background removal), derive_assets.py (monochrome/notification/splash icons, mask cleanup)
 test/
   engine/ (ray_test, engine_test, solver_test, generator_test, difficulty_test, codec_test, mechanics/*)
   services/ (ad_policy_test, economy_test, save_migration_test)

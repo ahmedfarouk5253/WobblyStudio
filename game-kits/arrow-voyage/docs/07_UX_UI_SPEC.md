@@ -99,5 +99,12 @@ Grouped list. "Gameplay": Zen, Show timer, Always aim, Left-handed, Reduce motio
 - **Body/UI:** "Nunito" (OFL) at 400/600/700.
 - **Numbers:** Nunito with tabular figures (`FontFeature.tabularFigures()`).
 - Bundle the fonts in `assets/fonts/` (don't fetch at runtime; offline-first).
-- Buttons: 16 dp radius, 2 dp bottom "lip" shadow (a slightly darker shade) for a tactile feel, and a press animation that scales to 0.96.
-- Sheets: 28 dp top radius, drag handle, background at 92% opacity of the surface color.
+- **Buttons ("candy" style):**
+  - 18 dp radius, a vertical gradient (top 8% lighter), a 1 dp inner top highlight (white at 35%), a 4 dp darker bottom lip, and a soft colored shadow.
+  - Press: the lip collapses to 1 dp and the button moves down 3 dp with a spring.
+  - Primary is coral, secondary is turquoise, quiet buttons are frosted.
+- **Panels and sheets:** frosted glass over the painted backgrounds (`BackdropFilter` blur 18, surface color at 72%, 1 dp white border at 10%, 28 dp radius, layered soft shadows). Drag handle on sheets.
+- **HUD chips** (coins, hearts, hints): pill-shaped frosted chips with the 3D icon overlapping the left edge slightly (it pops out of the chip).
+- **Motion:** spring physics everywhere (`SpringDescription(mass: 1, stiffness: 400, damping: 22)`), staggered entrances (40 ms apart), and number roll-ups for coins and timers. Idle elements breathe gently (scale 1.00↔1.02).
+- **Hero numbers** (level number, coins on results): Baloo 2 800 with a soft 2 dp drop shadow and a subtle top-to-bottom gradient fill.
+- **Reference bar:** screenshots of the game should hold up next to the polish of the top casual puzzle games. If a screen looks flat, add depth (shadow, gradient, glow) before adding more things.

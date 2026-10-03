@@ -24,8 +24,10 @@ dart format --set-exit-if-changed .   # format
 flutter test                          # all unit + widget tests must pass
 dart run tool/level_gen.dart --all    # regenerate level packs into assets/levels/
 dart run tool/validate_levels.dart    # solve + score every shipped level; fails on any unsolvable level
+python3 tool/cutout.py               # remove plain grey backgrounds from cutout images (rembg)
+python3 tool/derive_assets.py        # make monochrome/notification/splash icons, clean masks
+dart run tool/optimize_assets.dart    # center-crop to final ratio, resize, convert to WebP
 dart run tool/check_assets.dart       # compare assets/ and store/ to assets_manifest.json
-dart run tool/optimize_assets.dart    # resize/convert generated PNGs to WebP
 flutter build appbundle --release     # AAB for Play Console
 ```
 
