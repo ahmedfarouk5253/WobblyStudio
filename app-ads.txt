@@ -12,4 +12,4 @@
 #
 # Format: <ad system domain>, <publisher ID>, <relationship>, <certification ID>
 
-google.com, pub-PUB-ACCOUNT-ID, DIRECT, f08c47fec0942fa0
+google.com, pub-1834205112481755, DIRECT, f08c47fec0942fa0
